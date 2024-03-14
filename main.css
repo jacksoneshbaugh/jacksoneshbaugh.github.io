@@ -1,51 +1,124 @@
+/**
+ * style.css
+ * Author: Jackson Eshbaugh
+ * Version: 03/14/2024
+ *
+ * Colors:
+ * Primary: #4a90e2ff;
+ * Secondary: #e6e6faff;
+ * Accent: #156064ff;
+ * Background: #faf9f6ff;
+ * Text Color: #36454fff;
+ * Secondary Text Color: #708090ff;
+ */
+
 * {
-    padding: .15em;
-    margin: .1em;
-    background-color: rgb(20, 20, 20);
-    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
-.center-box {
+body {
+    background: #e8e6e4;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background: #e6e6faff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-bottom: 10px solid #4a90e2ff;
+    margin-bottom: 2em;
+}
+
+nav .name {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #36454fff;
+}
+
+nav .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 30%;
+}
+
+nav .links li {
+    display: inline;
+}
+
+nav .links li a {
+    color: #36454fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+
+nav .links li a:hover {
+    color: #4a90e2ff;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    display: flex;
     justify-content: center;
-    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em;
+    background: #e6e6faff;
+    border-radius: 10px;
+    width: 75%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
 }
 
-.callout {
-    padding: 1em;
-    margin-top: .5em;
-    background-color: rgba(135, 135, 135, 0.750);
-    width: 50%;
+.jumbotron h2 {
+    font-size: 3em;
+    color: #36454fff;
+    margin-bottom: 0.5em;
 }
 
-.first-name {
-    display: flex;
-    font-family: 'Courier New', Courier, monospace;
+.jumbotron p {
+    font-size: 1.5em;
+    color: #36454fff;
+    margin-bottom: 1em;
 }
 
-.container {
+/* Buttons */
+
+.btn {
     display: inline-block;
+    padding: 1em 2em;
+    margin: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
-.container .name {
-    display: flex;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-    animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
-    border-right: 2px solid;
-    padding-left: .05em;
-    padding-right: .05em;
+.btn-primary {
+    background: #4a90e2ff;
+    color: #faf9f6ff;
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+.btn-primary:hover {
+    background: #156064ff;
 }
 
-@keyframes blinking {
-    0% {border-right-color: transparent}
-    50% {border-right-color: white}
-    100% {border-right-color: transparent}
+/* Floats */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
