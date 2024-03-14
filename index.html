@@ -14,7 +14,7 @@
                 <h1>Jackson Eshbaugh</h1>
                 <h6>Computer Science & French Student</h6>
             </div>
-            <div class="hamburger">
+            <div id="hamburger" class="hamburger">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -25,20 +25,45 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
         </nav>
+
+        <!-- Side navigation, for mobile devices -->
+
+        <div id="side-nav" class="side-nav" style="display: none;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
         <!-- Main Content -->
 
+        <div class="spacer"></div>
         <div class="main">
-            <div class="image-text center" style="width: 50%;">
+            <div class="image-text center">
                 <img src="images/jackson.jpg" alt="Jackson Eshbaugh">
                 <div class="text">
-                    <h1>Jackson Eshbaugh</h1>
-                    <h6>About me</h6>
-                    <p>I am a computer science and French student at Lafayette College who
-                       is deeply interested in bioinformatics, the intersection of computer science and biology.</p>
+                    <div class="inner">
+                        <h1>Jackson Eshbaugh</h1>
+                        <p>I am a computer science and French student at Lafayette College who
+                            is deeply interested in the field of bioinformatics,
+                             the intersection of computer science and biology.
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="navigation-buttons">
+                <a href="about.html" class="button">About Me</a>
+                <a href="projects.html" class="button">My Projects</a>
+                <a href="contact.html" class="button">Get in Touch</a>
+            </div>
         </div>
+        <div class="spacer"></div>
+        <!-- Footer -->
+        <footer>
+            <div class="copyright">&copy; 2024 Jackson Eshbaugh</div>
+        </footer>
+        <script src="hamburger.js"></script>
     </body>
 </html>
