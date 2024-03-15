@@ -1,7 +1,7 @@
 # TODO
 
-- [ ] Make the website responsive
-- [ ] Finish the index page
+- [x] Make the website responsive
+- [x] Finish the index page
 - [ ] Finish the projects page
 - [ ] Finish the about page
 - [ ] Finish the contact page
