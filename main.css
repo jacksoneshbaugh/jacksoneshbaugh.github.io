@@ -192,6 +192,14 @@ nav .hamburger.active div:nth-child(3) {
     }
 }
 
+/* iPhones */
+
+@media (max-width: 500px) {
+    .side-nav {
+        top: 19%;
+    }
+}
+
 /* Main Content */
 
 .main {
@@ -295,16 +303,32 @@ nav .hamburger.active div:nth-child(3) {
 
     .image-text img {
         width: 100%;
-        height: 25%;
+        height: auto;
         margin-right: 0;
         border-bottom-left-radius: 0;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
 
+    .socials {
+        margin-bottom: 0;
+    }
+
     .image-text .text {
         width: 100%;
-        height: 50%;
+        height: auto;
+    }
+
+    .image-text .text .inner {
+        width: 100%;
+    }
+
+    .image-text .text .inner h1 {
+        font-size: 1.75em;
+    }
+
+    .image-text .text .inner p {
+        font-size: 1em;
     }
 
     .pop {
