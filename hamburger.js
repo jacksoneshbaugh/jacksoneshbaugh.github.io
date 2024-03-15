@@ -6,29 +6,27 @@
  */
 
 let hamburger = document.getElementById('hamburger');
-let close = document.getElementById('close-side-nav');
-
+let sideNav = document.getElementById('side-nav');
+let body = document.body;
 hamburger.addEventListener('click', function() {
-    let nav = document.getElementById('side-nav');
-    if (nav.style.display === 'none') {
-        nav.style.display = 'block';
-        nav.classList.add('active');
-        hamburger.classList.add('active');
-    } else {
-        nav.style.display = 'none';
-        nav.classList.remove('active');
+    if (sideNav.classList.contains('active')) {
+        sideNav.classList.remove('active');
         hamburger.classList.remove('active');
+        body.classList.remove('lock-scroll')
+    } else {
+        sideNav.classList.add('active');
+        hamburger.classList.add('active');
+        body.classList.add('lock-scroll')
     }
 });
 
 // any tap outside the side nav will close it
 document.addEventListener('click', function(event) {
-    let nav = document.getElementById('side-nav');
-    if (nav.classList.contains('active')) {
+    if (sideNav.classList.contains('active')) {
         if (event.target.id !== 'hamburger' && event.target.id !== 'side-nav') {
-            nav.style.display = 'none';
-            nav.classList.remove('active');
+            sideNav.classList.remove('active');
             hamburger.classList.remove('active');
+            body.classList.remove('lock-scroll')
         }
     }
 });
