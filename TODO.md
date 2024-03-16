@@ -9,9 +9,9 @@
     - [x] Create an ``en`` folder with the English translation of the website (what is currently ``index.html`` will be
       moved to ``en/index.html``).
     - [x] Add links to the opposite language in the footer of each page.
-- [ ] Finish the about page
+- [x] Finish the about page
     - [x] English Version
-    - [ ] French Version
+    - [x] French Version
 - [ ] Finish the projects page
     - [ ] Video player for biotech TED Talk and other videos
 - [ ] Finish the contact page
