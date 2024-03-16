@@ -738,6 +738,17 @@ nav .hamburger.active div:nth-child(3) {
 }
 
 
+/* Text Content */
+.text-content {
+    padding: 5em;
+}
+
+@media (max-width: 768px) {
+    .text-content {
+        padding: 2em;
+    }
+}
+
 /* Footer */
 
 footer {
