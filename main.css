@@ -1,4 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /**
  * style.css
  * Author: Jackson Eshbaugh
@@ -51,6 +52,10 @@ body {
 
 .f-title-sans {
     font-family: "Raleway", sans-serif;
+}
+
+.f-body {
+    font-family: "Montserrat", sans-serif !important;
 }
 
 .unbold {
@@ -372,7 +377,7 @@ nav .hamburger.active div:nth-child(3) {
 }
 
 .image-text .text .inner {
-    padding: 2em;
+    padding: 1.25em;
     box-sizing: border-box;
 }
 
@@ -712,21 +717,6 @@ nav .hamburger.active div:nth-child(3) {
     }
 }
 
-/* Collage */
-
-.collage {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10em, 50em));
-    grid-auto-rows: 30em;
-    grid-gap: 0;
-}
-
-.collage img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 /* Circle Image */
 
 .img-circle {
@@ -747,6 +737,206 @@ nav .hamburger.active div:nth-child(3) {
     .text-content {
         padding: 2em;
     }
+}
+
+
+/* Cards (used for the portfolio) */
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    box-shadow: black 0 0 10px;
+    border-radius: 15px;
+    background: #faf9f6ff;
+    transition: 0.3s;
+    width: 33%;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: black 0 0 15px;
+}
+
+.card .card-heading {
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card .card-heading .domain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .5em 1em;
+    border-top-left-radius: 15px;
+}
+
+.card .card-heading .domain.cs {
+    background: #4a90e2ff;
+    color: white;
+}
+
+.card .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.card .card-heading .card-title {
+    font-family: Raleway, sans-serif;
+    font-size: 2em;
+    margin: 1.25em 0 .5em;
+    text-shadow: #000 0 0 10px;
+}
+
+.card .card-description {
+    font-size: 1.25em;
+    margin: .5em 0;
+    color: #36454fff;
+    padding: 0 1em;
+}
+
+.card .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+.card .tags .tag {
+    display: inline-block;
+    padding: .5em 1em;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: .25em .5em;
+}
+
+/* every first tag is blue, second is pink, third is green */
+.card .tags .tag:nth-child(3n+1) {
+    background: #4a90e2ff;
+}
+
+.card .tags .tag:nth-child(3n+2) {
+    background: #ffafb0;
+}
+
+.card .tags .tag:nth-child(3n+3) {
+    background: #1b5d62;
+}
+
+
+.card .card-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.card .card-links .card-link:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.card .card-links .card-link:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+.card .card-links .card-link {
+    display: inline-block;
+    padding: .5em 1em;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+.github-link-btn {
+    background: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.github-link-btn:hover {
+    background: white;
+    color: #000000;
+}
+
+.card .project-authors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25em;
+}
+
+.card .project-authors .author {
+    padding: .25em .5em;
+    text-decoration: none;
+    color: #4a90e2ff;
+    transition: 0.3s;
+    text-align: center;
+    justify-content: center;
+    margin: 0 .5em;
+    vertical-align: middle;
+    display: flex;
+    border-radius: 15px;
+}
+
+.card .project-authors .author img {
+    display: flex;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+.card .project-authors .author p {
+    display: flex;
+    font-size: 1em;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    margin-top: .4em;
+}
+
+.card .project-authors .author:hover {
+    color: #4a90e2ff;
+    background: #e6e6faff;
+}
+
+/* line with text through the middle */
+
+.line {
+    border-top: 1px solid #36454fff;
+    text-align: center;
+    margin: .5em 0;
+    width: 100%;
+}
+
+.line .center-text {
+    background-color: #faf9f6ff;
+    padding: 0 .01em;
+    position: relative;
+    top: -.65em;
 }
 
 /* Footer */
