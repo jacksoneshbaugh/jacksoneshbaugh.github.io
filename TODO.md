@@ -12,6 +12,8 @@
 - [x] Finish the about page
     - [x] English Version
     - [x] French Version
+- [ ] Fix responsiveness of the image-text element for common display sizes
+    - [ ] 1440 px wide display, for one thing
 - [ ] Finish the projects page
     - [ ] Video player for biotech TED Talk and other videos
 - [ ] Finish the contact page
