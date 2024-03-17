@@ -170,6 +170,7 @@ nav .links li {
 nav .links li a {
     color: #36454fff;
     text-decoration: none;
+    white-space: nowrap;
     margin: 0 1em;
     font-size: 1.25em;
     transition: 0.3s;
