@@ -779,6 +779,8 @@ nav .hamburger.active div:nth-child(3) {
 
 .card .card-heading {
     width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
     color: white;
     border-top-left-radius: 15px;
@@ -796,6 +798,21 @@ nav .hamburger.active div:nth-child(3) {
 .card .card-heading .domain.cs {
     background: #4a90e2ff;
     color: white;
+}
+
+.card .card-heading .domain.bioinf {
+    background: #ffafb0;
+    color: white;
+}
+
+.card .card-heading .domain.hist {
+    background: #1b5d62;
+    color: white;
+}
+
+.card .card-video {
+    width: 100%;
+    height: auto;
 }
 
 .card .card-img {
@@ -854,8 +871,8 @@ nav .hamburger.active div:nth-child(3) {
 
 .card .card-links {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
     width: 100%;
     margin: 0;
 }
@@ -869,14 +886,36 @@ nav .hamburger.active div:nth-child(3) {
 }
 
 .card .card-links .card-link {
-    display: inline-block;
-    padding: .5em 1em;
+    flex: 1;
+    padding: 1em 1.5em;
     text-decoration: none;
     transition: 0.3s;
     text-align: center;
     justify-content: center;
     margin: 0;
     width: 100%;
+}
+
+.primary-link-btn {
+    background: #4a90e2ff;
+    color: white;
+    cursor: pointer;
+}
+
+.primary-link-btn:hover {
+    background: #e6e6faff;
+    color: #4a90e2ff;
+}
+
+.secondary-link-btn {
+    background: #ffafb0;
+    color: white;
+    cursor: pointer;
+}
+
+.secondary-link-btn:hover {
+    background: #f37b7f;
+    color: white;
 }
 
 .github-link-btn {
@@ -888,6 +927,17 @@ nav .hamburger.active div:nth-child(3) {
 .github-link-btn:hover {
     background: white;
     color: #000000;
+}
+
+.youtube-link-btn {
+    background: #ff0000;
+    color: white;
+    cursor: pointer;
+}
+
+.youtube-link-btn:hover {
+    background: white;
+    color: #ff0000;
 }
 
 .card .project-authors {
@@ -1048,4 +1098,13 @@ footer .change-language a:hover {
 
 body.lock-scroll {
     overflow: hidden;
+}
+
+a.dressed-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.dressed-link:hover {
+    text-decoration: underline;
 }
