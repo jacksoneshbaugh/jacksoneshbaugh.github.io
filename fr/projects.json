@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "name": "Personal Website",
-      "description": "This site is a project in and of itself! I built it from scratch using HTML, CSS, and JavaScript. It's hosted on GitHub Pages, and the source is available for you to peruse!",
+      "name": "Site Personnel",
+      "description": "Ce site est un projet en soi ! J'ai le fait à partir de zéro en utilisant l'HTML, le CSS, et le JavaScript. C'est hébergé sur GitHub Pages, et le source est disponsible pour dépouiller !",
       "domain": "informatique",
-      "date": "Ongoing",
+      "date": "actuel",
       "image": "../images/projects/personal-site.png",
       "tags": [
         "HTML",
