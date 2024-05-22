@@ -795,19 +795,109 @@ nav .hamburger.active div:nth-child(3) {
     border-top-left-radius: 15px;
 }
 
-.card .card-heading .domain.cs {
+.card .card-heading .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5em 1em;
+    border-top-right-radius: 15px;
+    background: rgba(85, 85, 85, 0.5);
+}
+
+.all {
+    background: #6c42e3;
+    color: white;
+}
+
+.filter.all.active {
+    background: #e6e6faff;
+    color: #6c42e3;
+}
+
+.filter.all:hover {
+    background: #c5c5ff;
+    color: #6c42e3;
+    cursor: pointer;
+}
+
+.cs {
     background: #4a90e2ff;
     color: white;
 }
 
-.card .card-heading .domain.bioinf {
+.filter.cs.active {
+    background: #e6e6faff;
+    color: #4a90e2ff;
+}
+
+.filter.cs:hover {
+    background: #e6e6faff;
+    color: #4a90e2ff;
+    cursor: pointer;
+}
+
+.bioinf {
     background: #ffafb0;
     color: white;
 }
 
-.card .card-heading .domain.hist {
+.filter.bioinf.active {
+    background: #ffddde;
+    color: #ffafb0;
+}
+
+.filter.bioinf:hover {
+    background: #ffddde;
+    color: #ffafb0;
+    cursor: pointer;
+}
+
+.hist {
     background: #1b5d62;
     color: white;
+}
+
+.filter.hist.active {
+    background: #aac3c5;
+    color: #1b5d62;
+}
+
+.filter.hist:hover {
+    background: #aac3c5;
+    color: #1b5d62;
+    cursor: pointer;
+}
+
+.fren {
+    background: #36454fff;
+    color: white;
+}
+
+.filter.fren.active {
+    background: #b2bbc4;
+    color: #36454fff;
+}
+
+.filter.fren:hover {
+    background: #b2bbc4;
+    color: #36454fff;
+    cursor: pointer;
+}
+
+.math {
+    background: #ffc83f;
+    color: white;
+}
+
+.filter.math.active {
+    background: #ffecc3;
+    color: #ffc83f;
+}
+
+.filter.math:hover {
+    background: #ffecc3;
+    color: #ffc83f;
+    cursor: pointer;
 }
 
 .card .card-video {
@@ -944,6 +1034,7 @@ nav .hamburger.active div:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 1.25em;
 }
 
@@ -975,6 +1066,12 @@ nav .hamburger.active div:nth-child(3) {
     text-align: center;
     justify-content: center;
     margin-top: .4em;
+}
+
+.card .project-authors .author.disabled:hover {
+    color: #36454fff;
+    background: none;
+    cursor: not-allowed;
 }
 
 .card .project-authors .author:hover {
@@ -1107,4 +1204,29 @@ a.dressed-link {
 
 a.dressed-link:hover {
     text-decoration: underline;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+    background: #ffffff;
+    width: 100%;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.filter-bar .filter {
+    display: inline-block;
+    padding: .5em 1em;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 .5em;
 }

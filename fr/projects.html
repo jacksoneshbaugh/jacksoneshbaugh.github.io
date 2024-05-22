@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
-    <title>Jackson Eshbaugh &bull; Computer Science & French Student</title>
+    <title>Jackson Eshbaugh &bull; Étudiant de l'informatique et du français</title>
 </head>
 <body>
 <!-- Navbar -->
 <nav>
     <div class="name">
         <h1>Jackson Eshbaugh</h1>
-        <h6>Computer Science & French Student</h6>
+        <h6>Étudiant de l'informatique et du français</h6>
     </div>
     <div id="hamburger" class="hamburger">
         <div></div>
@@ -20,10 +20,10 @@
         <div></div>
     </div>
     <ul class="links">
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a class="active" href="projects.html">projects</a></li>
-        <li><a href="resume.html">resumé</a></li>
+        <li><a class="active" href="index.html">accueil</a></li>
+        <li><a href="about.html">à propos</a></li>
+        <li><a href="projects.html">projets</a></li>
+        <li><a href="resume.html">CV</a></li>
         <li><a href="contact.html">contact</a></li>
     </ul>
 </nav>
@@ -32,33 +32,31 @@
 
 <div id="side-nav" class="side-nav">
     <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a class="active" href="projects.html">projects</a></li>
-        <li><a href="resume.html">resumé</a></li>
+        <li><a class="active" href="index.html">accueil</a></li>
+        <li><a href="about.html">à propos</a></li>
+        <li><a href="projects.html">projets</a></li>
+        <li><a href="resume.html">CV</a></li>
         <li><a href="contact.html">contact</a></li>
     </ul>
 </div>
 <!-- Main Content -->
 <div class="main">
-    <h1 class="page-title">My Projects</h1>
-    <p class="f-body page-subtitle center">Aside from day-to-day classwork (and extracurriculars), I work on numerous
-        projects. These could be anything from course projects to things I did for fun to "commissioned" work. I hope
-        you enjoy exploring some of the things I've worked on!
+
+    <h1 class="page-title">Mes Projets</h1>
+    <p class="f-body page-subtitle center">En plus de jour-à-jour travail (et périscolaires), je travaille sur des projets nombreux et variés. Ceux-ci pourraient être n'importe quoi, des projets de cours à des choses que j'ai faites pour le plaisir à des travaux « commandés ». J'espère que vous apprécierez explorer certaines des choses sur lesquelles j'ai travaillé!</p>
     </p>
-    <h2 class="f-body page-subtitle">Here's what I've been up to:</h2>
+    <h2 class="f-body page-subtitle">Voici ce que j'ai fait :</h2>
     <div class="filter-bar">
-        <button class="filter all active" data-filter="All">All</button>
-        <button class="filter cs" data-filter="Computer Science">Computer Science</button>
-        <button class="filter fren" data-filter="French">French</button>
-        <button class="filter bioinf" data-filter="Bioinformatics">Bioinformatics</button>
-        <button class="filter hist" data-filter="History (and Current Events)">History (and Current Events)</button>
-        <button class="filter math" data-filter="Mathematics">Mathematics</button>
+        <button class="filter all active" data-filter="tout">tout</button>
+        <button class="filter cs" data-filter="informatique">informatique</button>
+        <button class="filter fren" data-filter="français">français</button>
+        <button class="filter bioinf" data-filter="bioinformatique">bioinformatique</button>
+        <button class="filter hist" data-filter="histoire (et des actualités)">histoire (et des actualités)</button>
+        <button class="filter math" data-filter="mathematique">mathematique</button>
     </div>
     <div class="card-list"></div>
-    <div class="pop">If you're looking for more, <b><a class="dressed-link" href="https://github.com/jacksoneshbaugh">check
-        out my GitHub
-        page!</a></b></div>
+    <div class="pop">Si vous cherchez plus, <b><a class="dressed-link" href="https://github.com/jacksoneshbaugh">regardez mon profil GitHub!</a></b></div>
+
 </div>
 <!-- Footer -->
 <footer>
@@ -83,16 +81,17 @@
         </a>
     </div>
     <div class="copyright">&copy; 2024 Jackson Eshbaugh</div>
-    <div class="change-language"><a href="../fr/projects.html"><span class="flag">🇫🇷</span> <span class="lang-text">français</span></a>
-    </div>
+    <div class="change-language"><a href="../en/index.html"><span class="flag">🇬🇧</span> <span
+            class="lang-text">English</span></a></div>
 </footer>
+<script src="../js/hamburger.js"></script>
 <script>
     let stylesheetDomainConversions = {
-        "Computer Science": "cs",
-        "French": "fren",
-        "Bioinformatics": "bioinf",
-        "History (and Current Events)": "hist",
-        "Mathematics": "math"
+        "informatique": "cs",
+        "français": "fren",
+        "bioinformatique": "bioinf",
+        "histoire (et des actualités)": "hist",
+        "mathematique": "math"
     };
 
     fetch("./projects.json").then(response => {
@@ -164,7 +163,7 @@
             // Filter the projects
             let filterButtons = document.querySelectorAll(".filter");
             let cards = document.querySelectorAll(".card");
-            let filter = "All";
+            let filter = "tout";
 
             filterButtons.forEach(button => {
                 button.addEventListener("click", () => {
@@ -172,7 +171,7 @@
                     button.classList.add("active");
                     filter = button.getAttribute("data-filter");
                     cards.forEach(card => {
-                        if (filter === "All") {
+                        if (filter === "tout") {
                             card.style.display = "flex";
                         } else {
                             console.log(filter);
@@ -192,6 +191,5 @@
             console.log("Failed to load projects.json", error);
         });
 </script>
-<script src="../js/hamburger.js"></script>
 </body>
 </html>
