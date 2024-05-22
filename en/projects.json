@@ -59,7 +59,7 @@
     },
     {
       "name": "Scavenger Survey",
-      "description": "A friend reached out to me asking if I knew of any websites that present a survey in the form of a bingo board. I didn't, but since I was on spring break, I figured I'd code it up for him real quick. The survey is displayed in the form of a bingo board, and clicking on a tile allows you to respond to a question. My friend Joe Freeston was very helpful in providing Docker build config and instructions.",
+      "description": "A friend reached out to me asking if I knew of any websites that present a survey in the form of a bingo board. I didn't, but since I was on spring break, I figured I'd code it up for him real quick. The survey is displayed in the form of a bingo board, and clicking on a tile allows you to respond to a question. My friend Joe Freeston was very helpful in providing Docker build config and instructions. We reconsidered the design recently and pivoted to a scavenger hunt model.",
       "domain": "Computer Science",
       "date": "Mar - Apr 2024",
       "image": "../images/projects/bingo-survey.png",
@@ -252,6 +252,9 @@
       "date": "May 2024",
       "image": "../images/projects/emmêlées.png",
       "tags": [
+        "French Literature",
+        "Enlightenment Philosophy",
+        "Research and Analysis",
         "Literary Analysis",
         "Coursework"
       ],

@@ -28,14 +28,14 @@
     },
     {
       "name": "Space Invaders",
-      "description": "This is a faithful recreation of Space Invaders that Callum Lindars and I co-authored for our CS 104 (intro informatique) class. It's built using Processing, which is a game-engine wrapper for Java.",
+      "description": "C'est une récreation fidéle de Space Invaders que Callum Lindars et je ont coécrit pour notre CS 104 (introduction à l'informatique) cours. C'est fait avec Processing, qui est une enveloppe moteur de jeu pour Java.",
       "domain": "informatique",
-      "date": "Dec. 2023",
+      "date": "déc. 2023",
       "image": "../images/projects/space-invaders.png",
       "tags": [
         "Java",
         "Processing",
-        "Coursework"
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -58,10 +58,10 @@
       ]
     },
     {
-      "name": "Scavenger Survey",
-      "description": "A friend reached out to me asking if I knew of any websites that present a survey in the form of a bingo board. I didn't, but since I was on spring break, I figured I'd code it up for him real quick. The survey is displayed in the form of a bingo board, and clicking on a tile allows you to respond to a question. My friend Joe Freeston was very helpful in providing Docker build config and instructions.",
+      "name": "Enquête sur la chasse au trésor",
+      "description": "Un ami m'a contacté pour me demander si je connaissais des sites Web qui présentent un sondage sous la forme d'un tableau de bingo. Je ne l'ai pas fait, mais comme j'étais en vacances de printemps, j'ai pensé que je le coderais pour lui très rapidement. Le sondage s'affiche sous la forme d'un tableau de bingo, et cliquer sur une tuile permet de répondre à une question. Mon ami Joe Freeston a été très utile en fournissant la configuration et les instructions de construction de Docker. On a réconsideré le design et changé au forme d'une chasse au trésor.",
       "domain": "informatique",
-      "date": "Mar - Apr 2024",
+      "date": "mar - apr 2024",
       "image": "../images/projects/bingo-survey.png",
       "tags": [
         "Python",
@@ -70,7 +70,7 @@
         "Docker",
         "CSS",
         "JavaScript",
-        "Project Management"
+        "Guestion des projets"
       ],
       "authors": [
         {
@@ -93,16 +93,16 @@
       ]
     },
     {
-      "name": "The Intersection of informatique and Biology",
-      "description": "For my biotechnology class during my senior year of high school, I watched a TED Talk, then read the journal article that it was based on. I found a self-described computational biologist named Sara-Jane Dunn, and her work is what specifically showed me what is possible in the field of bioinformatics. This project is what first showed me the field that I have become so excited about, and I'm so glad I got to create it (and that I get to share it with you)!",
+      "name": "L'intersection de l'informatique et de la biologie",
+      "description": "Pour mon cours de biotechnologie pendant ma dernière année de lycée, j'ai regardé une conférence TED, puis j'ai lu l'article de journal sur lequel il était basé. J'ai trouvé une biologiste computationnelle autoproclamée nommée Sara-Jane Dunn, et son travail est ce qui m'a spécifiquement montré ce qui est possible dans le domaine de la bioinformatique. Ce projet est ce qui m'a d'abord montré le domaine qui m'enthousiasme tant, et je suis tellement heureux d'avoir pu le créer (et de pouvoir le partager avec vous) !",
       "domain": "bioinformatique",
-      "date": "Oct. 2022",
+      "date": "oct. 2022",
       "image": "../images/projects/The Next Software Revolution.jpeg",
       "video": "<div style=\"width: 28em; height: 20em;\">\n                <iframe src=\"https://player.vimeo.com/video/945047043\" frameborder=\"0\"\n                        allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen\n                        style=\"width:100%; height:100%;\"></iframe>\n            </div>\n            <script src=\"https://player.vimeo.com/api/player.js\"></script>",
       "tags": [
-        "Public Speaking",
+        "Prise de parole en public",
         "Presentation",
-        "Coursework"
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -120,33 +120,33 @@
       ],
       "links": [
         {
-          "name": "View the Slideshow",
+          "name": "Voir les diapositives",
           "type": "primary-link-btn",
           "url": "../uploads/The%20Next%20Software%20Revolution.pdf"
         },
         {
-          "name": "Read the Journal Article",
+          "name": "Lire l'article de journal",
           "type": "secondary-link-btn",
           "url": "https://www.embopress.org/doi/full/10.15252/embj.2018100003"
         },
         {
-          "name": "Watch the TED Talk",
+          "name": "Regarder la conférence TED",
           "type": "youtube-link-btn",
           "url": "https://www.ted.com/talks/sara_jane_dunn_the_next_software_revolution_programming_biological_cells"
         }
       ]
     },
     {
-      "name": "Unpacking BDS",
-      "description": "This is the first paper I wrote during my time at Lafayette. In the wake of a re-ignited Israeli-Palestinian conflict, I set out to explore: what exactly is the BDS movement, why does it exist, and how has the international political world received it?",
+      "name": "Déballage du BDS",
+      "description": "C'est le premier article que j'ai écrit pendant mon séjour à Lafayette. Dans le sillage d'un conflit israélo-palestinien ravivé, j'ai entrepris d'explorer : qu'est-ce que le mouvement BDS exactement, pourquoi existe-t-il et comment le monde politique international l'a-t-il reçu ?",
       "domain": "histoire (et des actualités)",
-      "date": "Dec. 2023",
+      "date": "déc. 2023",
       "image": "../images/projects/unpacking-bds.png",
       "tags": [
-        "Comparative Politics",
-        "Current Events",
-        "Research and Analysis",
-        "Coursework"
+        "Politique comparée",
+        "Actualités",
+        "Recherche et analyse",
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -157,24 +157,24 @@
       ],
       "links": [
         {
-          "name": "View the Paper",
+          "name": "Lire le papier",
           "type": "primary-link-btn",
           "url": "../uploads/Unpacking%20BDS.pdf"
         }
       ]
     },
     {
-      "name": "River Ecosystem Simulator",
-      "description": "For this project, I was tasked with simulating a simple river ecosystem with only bears and fish. I had to consider death by both natural causes and by animals, as well as reproduction. This was the first of three projects I completed for a Data Structures and Algorithms course at Lafayette College. It was also my first project using Javadoc documentation.",
+      "name": "Simulateur d'écosystème fluvial",
+      "description": "Pour ce projet, j'ai été chargé de simuler un écosystème fluvial simple avec seulement des ours et des poissons. Je devais considérer la mort par des causes naturelles et par les animaux, ainsi que la reproduction. C'était le premier de trois projets que j'ai réalisés pour un cours sur les structures de données et les algorithmes au Lafayette College. C'était aussi mon premier projet utilisant la documentation Javadoc.",
       "domain": "informatique",
-      "date": "Feb. 2024",
+      "date": "fév. 2024",
       "image": "../images/projects/river-simulation.png",
       "tags": [
-        "Javadoc Documentation",
-        "JUnit Unit Testing",
-        "Data Structures & Algorithms",
+        "Documentation Javadoc",
+        "Tests unitaires JUnit",
+        "Structures de données et algorithmes",
         "Java",
-        "Coursework"
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -192,15 +192,15 @@
       ]
     },
     {
-      "name": "Doubling List",
-      "description": "I was tasked with implementing a doubling list. This is something like a combination of a linked list and an array list, where each node on the list contains an array two times larger than the previous. This was by far the toughest project I did in Data Structures & Algorithms. It felt like everything that could break broke! But with perseverance, I managed to get all of my unit tests to pass!",
+      "name": "Liste de doublage",
+      "description": "J'ai été chargé de mettre en place une liste de doublons. Il s'agit d'une combinaison d'une liste chaînée et d'une liste de tableaux, où chaque nœud de la liste contient un tableau deux fois plus grand que le précédent. C'était de loin le projet le plus difficile que j'ai fait dans les structures de données et les algorithmes. J'avais l'impression que tout ce qui pouvait se briser se brisait ! Mais avec de la persévérance, j'ai réussi à réussir tous mes tests unitaires !",
       "domain": "informatique",
-      "date": "Apr. 2024",
+      "date": "apr. 2024",
       "image": "../images/projects/doubling-list.png",
       "tags": [
-        "Data Structures & Algorithms",
+        "Structures de données et algorithmes",
         "Java",
-        "Coursework"
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -218,17 +218,17 @@
       ]
     },
     {
-      "name": "Transport Simulation",
-      "description": "This is a simulation of shipping trucks. The end user can configure certain settings before running the simulation, and the results are printed in a log file. I completed this as part of a Data Structures and Algorithms course at Lafayette College. Notably, we weren't given any implementation details and were told to write our own planning document, which you can also find in the GitHub repository with the project.",
+      "name": "Simulation du transport",
+      "description": "Il s'agit d'une simulation de camions d'expédition. L'utilisateur final peut configurer certains paramètres avant d'exécuter la simulation, et les résultats sont imprimés dans un fichier journal. Je l'ai terminé dans le cadre d'un cours sur les structures de données et les algorithmes au Lafayette College. Notamment, on ne nous a donné aucun détail sur la mise en œuvre et on nous a dit d'écrire notre propre document de planification, que vous pouvez également trouver dans le dépôt GitHub avec le projet.",
       "domain": "informatique",
-      "date": "May 2024",
+      "date": "mai 2024",
       "image": "../images/projects/transport-simulation.png",
       "tags": [
-        "File I/O",
-        "Software Design",
-        "Data Structures & Algorithms",
+        "E/S des fichiers",
+        "Conception des logiciels",
+        "Structures de données et algorithmes",
         "Java",
-        "Coursework"
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -246,14 +246,17 @@
       ]
     },
     {
-      "name": "« Emmêlées » : An Analysis of \"Art\" and \"Science\" from <i>l'Encyclopédie</i>",
-      "description": "This paper explores the definitions of art and science as presented in Denis Diderot and Jean le Rond d'Alembert's Encyclopédie (1751) and examines their relevance to contemporary life. It highlights how the Enlightenment-era work categorized a vast array of topics into art and science, noting significant differences from modern interpretations. Despite these differences, the paper argues that the Encyclopédie's definitions of art and science remain applicable today, illustrating their intertwined nature through examples like medicine and music. Ultimately, it suggests that these historical perspectives offer valuable insights into how we perceive and categorize human knowledge and creativity.",
+      "name": "Emmêlées : L’art et la science selon l’Encyclopédie, et leur pertinence aujourd’hui",
+      "description": "Cet article explore les définitions de l'art et de la science telles que présentées dans l'Encyclopédie de Denis Diderot et Jean le Rond d'Alembert (1751) et examine leur pertinence pour la vie contemporaine. Il souligne comment les travaux de l'époque des Lumières ont catégorisé un vaste éventail de sujets en art et en science, notant des différences significatives par rapport aux interprétations modernes. Malgré ces différences, l'article soutient que les définitions de l'art et de la science de l'Encyclopédie restent applicables aujourd'hui, illustrant leur nature entrelacée à travers des exemples comme la médecine et la musique. En fin de compte, cela suggère que ces perspectives historiques offrent des informations précieuses sur la façon dont nous percevons et catégorisons la connaissance et la créativité humaines.",
       "domain": "français",
-      "date": "May 2024",
+      "date": "mai 2024",
       "image": "../images/projects/emmêlées.png",
       "tags": [
-        "Literary Analysis",
-        "Coursework"
+        "Littérature française",
+        "Philosophie des Lumières",
+        "Recherche et analyse",
+        "Analyse littéraire",
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -264,24 +267,24 @@
       ],
       "links": [
         {
-          "name": "View the Paper (en français)",
+          "name": "Lire le papier",
           "type": "primary-link-btn",
           "url": "../uploads/Emmêlées—L’art et la science selon l’Encyclopédie, et leur pertinence aujourd’hui.pdf"
         }
       ]
     },
     {
-      "name": "Network Dilemma: A Survey of 6 Different Network Configurations",
-      "description": "This study surveys six different network configurations—complete, complete bipartite, hypercubes, trees, cyclic, and wheel—to evaluate their suitability for a network of 32 nodes. Through comprehensive analysis of each configuration’s cost, speed, reliabilty, and extensibility, we explore the pros and cons of each layout. Our evaluation criteria include network connectivity, vertex and edge reliability, the existence of Hamilton cycles and Euler tours, and the feasibility of network expansion. Among the configurations considered, the complete bipartite, the hypercube, and the wheel layouts emerged as the most suitable, depending on specific needs. To conclude, we provide recommendations tailored to different organizational requirements, providing a nuanced understanding of how each configuration could serve specific network infrastructure needs effectively.",
+      "name": "Dilemme du réseau : une étude de 6 configurations de réseau différentes",
+      "description": "Cette étude examine six configurations de réseau différentes - complet, bipartite complet, hypercubes, arbres, cyclique et roue - pour évaluer leur adéquation à un réseau de 32 nœuds. Grâce à une analyse complète du coût, de la vitesse, de la fiabilité et de l'extensibilité de chaque configuration, nous explorons les avantages et les inconvénients de chaque configuration. Nos critères d'évaluation comprennent la connectivité du réseau, la fiabilité des sommets et des périphéries, l'existence de cycles de Hamilton et de tours d'Euler, et la faisabilité de l'expansion du réseau. Parmi les configurations considérées, la disposition bipartite complète, l'hypercube et les roues sont apparues comme les plus adaptées, en fonction des besoins spécifiques. Pour conclure, nous fournissons des recommandations adaptées aux différentes exigences organisationnelles, offrant une compréhension nuancée de la façon dont chaque configuration pourrait répondre efficacement à des besoins spécifiques en matière d'infrastructure réseau.`",
       "domain": "mathematique",
-      "date": "May 2024",
+      "date": "mai 2024",
       "image": "../images/projects/network-dilemma.png",
       "tags": [
-        "Graph Theory",
-        "Network Theory",
-        "Discrete Mathematics",
+        "Théorie des graphes",
+        "Théorie des réseaux",
+        "Mathématiques discrètes",
         "LaTeX",
-        "Coursework"
+        "Travail du cours"
       ],
       "authors": [
         {
@@ -307,12 +310,12 @@
       ],
       "links": [
         {
-          "name": "View the Paper",
+          "name": "Lire la papier",
           "type": "primary-link-btn",
           "url": "../uploads/Network%20Dilemma.pdf"
         },
         {
-          "name": "View the Presentation",
+          "name": "Regarder les diapositives",
           "type": "secondary-link-btn",
           "url": "../uploads/Network%20Dilemma%20Presentation.pdf"
         }
