@@ -320,6 +320,39 @@
           "url": "../uploads/Network%20Dilemma%20Presentation.pdf"
         }
       ]
+    },
+    {
+      "name": "Brainrot Bot & Reddit-TTS-Bot",
+      "description": "I created a Python module that scrapes stories from subreddits and creates YouTube Shorts-style videos with text-to-speech narration. The module is called Reddit-TTS-Bot (available on PyPI), and I used it to create a simple driver project called Brainrot Bot.",
+      "domain": "Computer Science",
+      "date": "May 2024",
+      "image": "../images/projects/brainrot-bot.png",
+      "tags": [
+        "Python",
+        "Web Scraping",
+        "Text-to-Speech",
+        "Project Management",
+        "Publishing to PyPI"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "github": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "Reddit-TTS-Bot GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/Reddit-TTS-Bot"
+        },
+        {
+          "name": "Brainrot-Bot GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/Brainrot-Bot"
+        }
+      ]
     }
   ]
 }
