@@ -1209,6 +1209,7 @@ a.dressed-link:hover {
 .filter-bar {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin: 1em 0;
     background: #ffffff;
@@ -1228,5 +1229,5 @@ a.dressed-link:hover {
     border-radius: 15px;
     text-align: center;
     justify-content: center;
-    margin: 0 .5em;
+    margin: .5em .5em;
 }
