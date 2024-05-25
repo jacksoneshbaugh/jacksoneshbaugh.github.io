@@ -14,7 +14,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
@@ -40,12 +40,12 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         },
         {
           "name": "Callum Lindars",
-          "github": "https://github.com/CallumLindars",
+          "link": "https://github.com/CallumLindars",
           "image": "https://avatars.githubusercontent.com/u/152182329?v=4"
         }
       ],
@@ -75,12 +75,12 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         },
         {
           "name": "Joe Freeston",
-          "github": "https://github.com/snorklerjoe",
+          "link": "https://github.com/snorklerjoe",
           "image": "https://avatars.githubusercontent.com/u/101837621?v=4"
         }
       ],
@@ -107,14 +107,14 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
       "basedOnWorkOf": [
         {
           "name": "Sara-Jane Dunn",
-          "github": "https://www.linkedin.com/in/sara-jane-dunn-19387848/",
+          "link": "https://www.linkedin.com/in/sara-jane-dunn-19387848/",
           "image": "../images/sara-jane-dunn.jpeg"
         }
       ],
@@ -151,7 +151,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
@@ -179,7 +179,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
@@ -205,7 +205,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
@@ -233,7 +233,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
@@ -261,7 +261,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
@@ -289,7 +289,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         },
         {
@@ -337,7 +337,7 @@
       "authors": [
         {
           "name": "Jackson Eshbaugh",
-          "github": "https://github.com/jacksoneshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
           "image": "../images/jackson.jpg"
         }
       ],
