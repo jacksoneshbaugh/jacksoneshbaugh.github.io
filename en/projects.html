@@ -131,7 +131,7 @@
             <div class="project-authors">
                 ${
                     project.authors.map(author => {
-                        return `<a class="author ${author.link == null ? "" : "disabled"}" href="${author.link ? author.link : "#"}" target="${author.link ? "_blank" : ""}">
+                        return `<a class="author ${author.link === 'null' ? "" : "disabled"}" href="${author.link === 'null' ? author.link : "#"}" target="${author.link ? "_blank" : ""}">
                     <img src="${author.image}" alt="${author.name}">
                     <p>${author.name}</p>
                 </a>`;
