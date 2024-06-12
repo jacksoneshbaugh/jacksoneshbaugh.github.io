@@ -1,10 +1,12 @@
 ---
 lang: "fr"
-page_id: index
+page_id: home
 layout: home
 permalink: /
+title: "Étudiant en informatique et en français"
 ---
 
+<head><title>Jackson Eshbaugh</title></head>
 <div class="center">
 <div class="image-text">
         <img src="../images/jackson.jpg" alt="Jackson Eshbaugh">

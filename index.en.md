@@ -4,10 +4,12 @@
 
 layout: home
 lang: "en"
-page_id: index
+page_id: home
 permalink: /
+title: "Computer Science and French Student"
 ---
 
+<head><title>Jackson Eshbaugh</title></head>
 <div class="center">
 <div class="image-text">
     <img src="../images/jackson.jpg" alt="Jackson Eshbaugh"/>

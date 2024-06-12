@@ -70,6 +70,7 @@ parallel_localization: true
 
 sass:
   sass_dir: _sass
+  sourcemap: never
 
 # Exclude from processing.
 # The following items will not be processed, by default.
