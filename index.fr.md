@@ -1,7 +1,7 @@
 ---
 lang: "fr"
 page_id: index
-layout: page
+layout: home
 permalink: /
 ---
 
