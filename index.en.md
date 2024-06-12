@@ -5,7 +5,7 @@
 layout: page
 lang: "en"
 page_id: index
-permalink: /
+permalink: /home/
 ---
 
 <div class="center">
