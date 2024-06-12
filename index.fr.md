@@ -2,7 +2,7 @@
 lang: "fr"
 page_id: index
 layout: page
-permalink: /home/
+permalink: /
 ---
 
 <div class="center">
