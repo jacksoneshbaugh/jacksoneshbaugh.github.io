@@ -1,0 +1,41 @@
+---
+---
+
+/* jacksoneshbaugh.github.io */
+
+@import "index";
+@import "about";
+@import "project";
+@import "resume";
+@import "masonry";
+@import "timeline";
+@import "blog";
+
+
+/* General */
+.center {
+  /* center everything horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

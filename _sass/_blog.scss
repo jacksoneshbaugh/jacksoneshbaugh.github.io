@@ -1,0 +1,25 @@
+.blog-post {
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+  color: #36454fff;
+}
+
+.blog-post small {
+  color: gray;
+  margin-bottom: 3em;
+}
+
+.blog-post .blog-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-right: 0;
+  margin-bottom: 0;
+}

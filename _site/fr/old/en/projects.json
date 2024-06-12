@@ -1,0 +1,358 @@
+{
+  "projects": [
+    {
+      "name": "Personal Website",
+      "description": "This site is a project in and of itself! I built it from scratch using HTML, CSS, and JavaScript. It's hosted on GitHub Pages, and the source is available for you to peruse!",
+      "domain": "Computer Science",
+      "date": "Ongoing",
+      "image": "../images/projects/personal-site.png",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/jacksoneshbaugh.github.io"
+        }
+      ]
+    },
+    {
+      "name": "Space Invaders",
+      "description": "This is a faithful recreation of Space Invaders that Callum Lindars and I co-authored for our CS 104 (intro computer science) class. It's built using Processing, which is a game-engine wrapper for Java.",
+      "domain": "Computer Science",
+      "date": "Dec. 2023",
+      "image": "../images/projects/space-invaders.png",
+      "tags": [
+        "Java",
+        "Processing",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        },
+        {
+          "name": "Callum Lindars",
+          "link": "https://github.com/CallumLindars",
+          "image": "https://avatars.githubusercontent.com/u/152182329?v=4"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/SpaceInvaders"
+        }
+      ]
+    },
+    {
+      "name": "Scavenger Survey",
+      "description": "A friend reached out to me asking if I knew of any websites that present a survey in the form of a bingo board. I didn't, but since I was on spring break, I figured I'd code it up for him real quick. The survey is displayed in the form of a bingo board, and clicking on a tile allows you to respond to a question. My friend Joe Freeston was very helpful in providing Docker build config and instructions. We reconsidered the design recently and pivoted to a scavenger hunt model.",
+      "domain": "Computer Science",
+      "date": "Mar - Apr 2024",
+      "image": "../images/projects/bingo-survey.png",
+      "tags": [
+        "Python",
+        "Flask",
+        "Jinja Templating",
+        "Docker",
+        "CSS",
+        "JavaScript",
+        "Project Management"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        },
+        {
+          "name": "Joe Freeston",
+          "link": "https://github.com/snorklerjoe",
+          "image": "https://avatars.githubusercontent.com/u/101837621?v=4"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/ScavengerSurvey"
+        }
+      ]
+    },
+    {
+      "name": "The Intersection of Computer Science and Biology",
+      "description": "For my biotechnology class during my senior year of high school, I watched a TED Talk, then read the journal article that it was based on. I found a self-described computational biologist named Sara-Jane Dunn, and her work is what specifically showed me what is possible in the field of bioinformatics. This project is what first showed me the field that I have become so excited about, and I'm so glad I got to create it (and that I get to share it with you)!",
+      "domain": "Bioinformatics",
+      "date": "Oct. 2022",
+      "image": "../images/projects/The Next Software Revolution.jpeg",
+      "video": "<div style=\"width: 28em; height: 20em;\">\n                <iframe src=\"https://player.vimeo.com/video/945047043\" frameborder=\"0\"\n                        allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen\n                        style=\"width:100%; height:100%;\"></iframe>\n            </div>\n            <script src=\"https://player.vimeo.com/api/player.js\"></script>",
+      "tags": [
+        "Public Speaking",
+        "Presentation",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "basedOnWorkOf": [
+        {
+          "name": "Sara-Jane Dunn",
+          "link": "https://www.linkedin.com/in/sara-jane-dunn-19387848/",
+          "image": "../images/sara-jane-dunn.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "name": "View the Slideshow",
+          "type": "primary-link-btn",
+          "url": "../uploads/The%20Next%20Software%20Revolution.pdf"
+        },
+        {
+          "name": "Read the Journal Article",
+          "type": "secondary-link-btn",
+          "url": "https://www.embopress.org/doi/full/10.15252/embj.2018100003"
+        },
+        {
+          "name": "Watch the TED Talk",
+          "type": "youtube-link-btn",
+          "url": "https://www.ted.com/talks/sara_jane_dunn_the_next_software_revolution_programming_biological_cells"
+        }
+      ]
+    },
+    {
+      "name": "Unpacking BDS",
+      "description": "This is the first paper I wrote during my time at Lafayette. In the wake of a re-ignited Israeli-Palestinian conflict, I set out to explore: what exactly is the BDS movement, why does it exist, and how has the international political world received it?",
+      "domain": "History (and Current Events)",
+      "date": "Dec. 2023",
+      "image": "../images/projects/unpacking-bds.png",
+      "tags": [
+        "Comparative Politics",
+        "Current Events",
+        "Research and Analysis",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "View the Paper",
+          "type": "primary-link-btn",
+          "url": "../uploads/Unpacking%20BDS.pdf"
+        }
+      ]
+    },
+    {
+      "name": "River Ecosystem Simulator",
+      "description": "For this project, I was tasked with simulating a simple river ecosystem with only bears and fish. I had to consider death by both natural causes and by animals, as well as reproduction. This was the first of three projects I completed for a Data Structures and Algorithms course at Lafayette College. It was also my first project using Javadoc documentation.",
+      "domain": "Computer Science",
+      "date": "Feb. 2024",
+      "image": "../images/projects/river-simulation.png",
+      "tags": [
+        "Javadoc Documentation",
+        "JUnit Unit Testing",
+        "Data Structures & Algorithms",
+        "Java",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/River-Ecosystem-Simulator"
+        }
+      ]
+    },
+    {
+      "name": "Doubling List",
+      "description": "I was tasked with implementing a doubling list. This is something like a combination of a linked list and an array list, where each node on the list contains an array two times larger than the previous. This was by far the toughest project I did in Data Structures & Algorithms. It felt like everything that could break broke! But with perseverance, I managed to get all of my unit tests to pass!",
+      "domain": "Computer Science",
+      "date": "Apr. 2024",
+      "image": "../images/projects/doubling-list.png",
+      "tags": [
+        "Data Structures & Algorithms",
+        "Java",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/Doubling-List"
+        }
+      ]
+    },
+    {
+      "name": "Transport Simulation",
+      "description": "This is a simulation of shipping trucks. The end user can configure certain settings before running the simulation, and the results are printed in a log file. I completed this as part of a Data Structures and Algorithms course at Lafayette College. Notably, we weren't given any implementation details and were told to write our own planning document, which you can also find in the GitHub repository with the project.",
+      "domain": "Computer Science",
+      "date": "May 2024",
+      "image": "../images/projects/transport-simulation.png",
+      "tags": [
+        "File I/O",
+        "Software Design",
+        "Data Structures & Algorithms",
+        "Java",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/Transport-Simulation"
+        }
+      ]
+    },
+    {
+      "name": "« Emmêlées » : An Analysis of \"Art\" and \"Science\" from <i>l'Encyclopédie</i>",
+      "description": "This paper explores the definitions of art and science as presented in Denis Diderot and Jean le Rond d'Alembert's Encyclopédie (1751) and examines their relevance to contemporary life. It highlights how the Enlightenment-era work categorized a vast array of topics into art and science, noting significant differences from modern interpretations. Despite these differences, the paper argues that the Encyclopédie's definitions of art and science remain applicable today, illustrating their intertwined nature through examples like medicine and music. Ultimately, it suggests that these historical perspectives offer valuable insights into how we perceive and categorize human knowledge and creativity.",
+      "domain": "French",
+      "date": "May 2024",
+      "image": "../images/projects/emmêlées.png",
+      "tags": [
+        "French Literature",
+        "Enlightenment Philosophy",
+        "Research and Analysis",
+        "Literary Analysis",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "View the Paper (en français)",
+          "type": "primary-link-btn",
+          "url": "../uploads/Emmêlées—L’art et la science selon l’Encyclopédie, et leur pertinence aujourd’hui.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Network Dilemma: A Survey of 6 Different Network Configurations",
+      "description": "This study surveys six different network configurations—complete, complete bipartite, hypercubes, trees, cyclic, and wheel—to evaluate their suitability for a network of 32 nodes. Through comprehensive analysis of each configuration’s cost, speed, reliabilty, and extensibility, we explore the pros and cons of each layout. Our evaluation criteria include network connectivity, vertex and edge reliability, the existence of Hamilton cycles and Euler tours, and the feasibility of network expansion. Among the configurations considered, the complete bipartite, the hypercube, and the wheel layouts emerged as the most suitable, depending on specific needs. To conclude, we provide recommendations tailored to different organizational requirements, providing a nuanced understanding of how each configuration could serve specific network infrastructure needs effectively.",
+      "domain": "Mathematics",
+      "date": "May 2024",
+      "image": "../images/projects/network-dilemma.png",
+      "tags": [
+        "Graph Theory",
+        "Network Theory",
+        "Discrete Mathematics",
+        "LaTeX",
+        "Coursework"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        },
+        {
+          "name": "Amy Fabera",
+          "link": "null",
+          "image": "../images/amy.jpg"
+        },
+        {
+          "name": "Tyler Salmon",
+          "link": "null",
+          "image": "../images/tyler.jpg"
+        },
+        {
+          "name": "Billy Zou",
+          "link": "null",
+          "image": "../images/billy.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "View the Paper",
+          "type": "primary-link-btn",
+          "url": "../uploads/Network%20Dilemma.pdf"
+        },
+        {
+          "name": "View the Presentation",
+          "type": "secondary-link-btn",
+          "url": "../uploads/Network%20Dilemma%20Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Brainrot Bot & Reddit-TTS-Bot",
+      "description": "I created a Python module that scrapes stories from subreddits and creates YouTube Shorts-style videos with text-to-speech narration. The module is called Reddit-TTS-Bot (available on PyPI), and I used it to create a simple driver project called Brainrot Bot.",
+      "domain": "Computer Science",
+      "date": "May 2024",
+      "image": "../images/projects/brainrot-bot.png",
+      "tags": [
+        "Python",
+        "Web Scraping",
+        "Text-to-Speech",
+        "Project Management",
+        "Publishing to PyPI"
+      ],
+      "authors": [
+        {
+          "name": "Jackson Eshbaugh",
+          "link": "https://github.com/jacksoneshbaugh",
+          "image": "../images/jackson.jpg"
+        }
+      ],
+      "links": [
+        {
+          "name": "Reddit-TTS-Bot GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/Reddit-TTS-Bot"
+        },
+        {
+          "name": "Brainrot-Bot GitHub (source)",
+          "type": "github-link-btn",
+          "url": "https://github.com/jacksoneshbaugh/Brainrot-Bot"
+        }
+      ]
+    }
+  ]
+}

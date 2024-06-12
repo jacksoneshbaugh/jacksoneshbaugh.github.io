@@ -1,0 +1,442 @@
+/* jacksoneshbaugh.github.io */
+/* Image-Text */
+.image-text {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 0;
+  box-shadow: black 0 0 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.image-text img {
+  width: 50%;
+  height: 25em;
+  display: block;
+  object-fit: cover;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.image-text .text {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em;
+}
+
+.image-text .text .inner {
+  padding: 1.25em;
+  box-sizing: border-box;
+}
+
+.image-text .text h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #36454f;
+}
+
+.image-text .text p {
+  font-size: 1em;
+  color: #36454f;
+}
+
+@media (min-width: 768px) {
+  .image-text .text {
+    margin-top: 2em;
+  }
+}
+.pop {
+  color: lavender;
+  font-size: 1.5em;
+  padding: 1em;
+  border-radius: 15px;
+  margin: 1.5em 0;
+  text-align: center;
+  background: #4a90e2;
+}
+
+@media (max-width: 768px) {
+  .image-text {
+    flex-direction: column;
+    width: 100%;
+  }
+  .image-text img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .image-text .text {
+    width: 100%;
+    height: auto;
+  }
+  .image-text .text .inner {
+    width: 100%;
+  }
+  .image-text .text .inner h1 {
+    font-size: 1.75em;
+  }
+  .image-text .text .inner p {
+    font-size: 1em;
+  }
+  .pop {
+    max-width: 100%;
+  }
+}
+/* Navigation Buttons */
+.navigation-buttons {
+  display: flex;
+  font-size: 1.5em;
+}
+
+.navigation-buttons a.button:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.navigation-buttons a.button:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.navigation-buttons a.button {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: white;
+  background: #4a90e2;
+  transition: 0.3s;
+  margin: 0;
+  width: 10em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.navigation-buttons a.button:hover {
+  color: #4a90e2;
+  background: lavender;
+}
+
+.navigation-buttons a.button.secondary {
+  background: #ffafb0;
+}
+
+.navigation-buttons a.button.secondary:hover {
+  color: #f37b7f;
+  background: rgba(250, 200, 205, 0.46);
+}
+
+.navigation-buttons a.button.tertiary {
+  background: #1b5d62;
+}
+
+.navigation-buttons a.button.tertiary:hover {
+  color: #1b5d62;
+  background: #d4dfe3;
+}
+
+/* On mobile devices, stack the buttons */
+@media (max-width: 768px) {
+  .navigation-buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .navigation-buttons a.button:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+  }
+  .navigation-buttons a.button:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .navigation-buttons a {
+    width: 75%;
+    margin: 0;
+  }
+}
+.circular {
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  margin-bottom: 3em;
+  display: flex;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.project {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid gray;
+}
+
+.project-contents {
+  width: 100%;
+  padding: 0.25em;
+}
+
+.project-title {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.project-meta {
+  font-size: 1em;
+  margin-top: 0;
+  color: gray;
+}
+
+.project-description {
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.project-authors {
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.project-author {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5em;
+  gap: 0.5em;
+}
+
+.project-author-img {
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline;
+  width: 1.75em;
+  height: 1.75em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.project-link {
+  border-radius: 15px;
+  background: #4a90e2;
+  padding: 1em;
+  color: white !important;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.project-link:hover {
+  background: #92c3fb;
+  text-decoration: none;
+}
+
+.skill-list {
+  list-style-type: none;
+}
+
+.resume-title {
+  margin-bottom: 0;
+}
+
+.resume-meta {
+  color: gray;
+  font-size: 1.75em;
+}
+
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The Masonry Container */
+.masonry {
+  margin: 1.5em auto;
+  max-width: 100%;
+  column-gap: 0.25em;
+}
+
+/* The Masonry Brick */
+.item {
+  background: #fff;
+  padding: 0;
+  margin: 0 0 1.5em;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  padding: 1em 1em 1em 1.5em;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: lightgray;
+  top: 0;
+}
+
+.timeline-item:first-child::before {
+  top: 50%; /* Start the line from the middle for the first item */
+  height: 50%; /* Only draw the bottom half for the first item */
+}
+
+.timeline-item:last-child::before {
+  height: 50%; /* Only draw the top half for the last item */
+  top: 0; /* Adjust to ensure it connects properly with the previous line */
+}
+
+.timeline-date {
+  font-size: 1em;
+  color: gray;
+}
+
+.timeline-dot::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px; /* Half the size of the dot */
+  height: 10px; /* Half the size of the dot */
+  background: lightgray;
+  border-radius: 50%; /* Make it a circle */
+  transform: translate(-40%, -50%); /* Center it vertically and horizontally */
+}
+
+.timeline-contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.timeline-title {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.blog-post {
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+  color: #36454f;
+}
+
+.blog-post small {
+  color: gray;
+  margin-bottom: 3em;
+}
+
+.blog-post .blog-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/* General */
+.center {
+  /* center everything horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=site.css.map */

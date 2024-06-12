@@ -1,0 +1,92 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Jackson Eshbaugh
+email: eshbaugj@lafayette.edu
+description: # this means to ignore newlines until "baseurl:"
+  en: "Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. He is passionate about technology, language, and their intersection as well as bioinformatics, the intersection of computer science and biology."
+  fr: "Jackson Eshbaugh est un étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Il est passionné par la technologie, la langue et leur intersection ainsi que la bioinformatique, l'intersection de l'informatique et de la biologie."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jacksoneshbaugh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jacksoneshbaugh
+github_username: jacksoneshbaugh
+linkedin_username: jacksoneshbaugh
+
+author:
+  name: Jackson Eshbaugh
+  email: eshbaugj@lafayette.edu
+
+header_pages:
+  - about.en.md
+  - about.fr.md
+  - projects.en.md
+  - projects.fr.md
+  - resume.en.md
+  - resume.fr.md
+  - blog.en.md
+  - blog.fr.md
+  - contact.en.md
+  - contact.fr.md
+
+minima:
+  skin: classic
+  social_links:
+    - { platform: github,  user_url: "https://github.com/jacksoneshbaugh" }
+    - { platform: x, user_url: "https://twitter.com/jacksoneshbaugh" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/jacksoneshbaugh/" }
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-polyglot
+
+# Put feed on blog page
+feed:
+  path: blog/atom.xml
+  posts_limit: 10
+
+languages: [ "en", "fr" ]
+default_lang: "en"
+exclude_from_localization: [ "javascript", "images", "css" ]
+parallel_localization: true
+
+sass:
+  sass_dir: _sass
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
