@@ -18,4 +18,4 @@ I used Python and Flask to develop the web application. I made changes based on 
 oversaw deployment on Google Cloud. Finally, I monitored the application for any issues that needed to be resolved.
 
 You can find more details about this project on
-its [page](/projects/computer%20science/2024/04/30/scavenger-hunt-survey-en.html).
+its [page](/projects/computer%20science/2024/04/30/scavenger-hunt-survey.html).
