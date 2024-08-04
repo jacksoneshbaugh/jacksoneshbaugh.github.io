@@ -1,4 +1,4 @@
-of---
+---
 layout: project
 lang: "en"
 title: "The Intersection of Computer Science and Biology"
