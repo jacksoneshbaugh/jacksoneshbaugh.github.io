@@ -11,7 +11,7 @@ authors: [ { github: "https://github.com/jacksoneshbaugh", image: "/images/jacks
 links: [
   { title: "Slideshow", url: "/uploads/The%20Next%20Software%20Revolution.pdf" },
   { title: "Journal Article", url: "https://www.nature.com/articles/nbt.2022.1" },
-  { title: "TED Talk", url: "https://www.ted.com/talks/sara_jane_dunn_the_next_software_revolution_in_biology?language=en" }
+  { title: "TED Talk", url: "https://www.ted.com/talks/sara_jane_dunn_the_next_software_revolution_programming_biological_cellslanguage=en" }
 ]
 ---
 
