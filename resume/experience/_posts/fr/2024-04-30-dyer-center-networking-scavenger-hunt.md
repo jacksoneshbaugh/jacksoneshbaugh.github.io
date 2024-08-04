@@ -20,4 +20,4 @@ des partenaires de conception et supervisé le déploiement sur Google Cloud. En
 tout problème nécessitant une résolution.
 
 Vous pouvez trouver plus de détails sur ce projet sur
-sa [page](/projects/computer%20science/2024/04/30/scavenger-hunt-survey-fr.html).
+sa [page](/projects/computer%20science/2024/04/30/scavenger-hunt-survey.html).
