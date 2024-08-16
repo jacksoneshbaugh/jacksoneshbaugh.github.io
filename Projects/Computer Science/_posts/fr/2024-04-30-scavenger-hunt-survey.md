@@ -37,6 +37,7 @@ services gratuitement. Le seul coût était le nom de domaine, qui était relati
 
 ## En conclusion
 
-Lors de l'événement du Dyer Center (pour lequel cette application a été développée), la chasse au trésor a été un
-succès. J'étais spécifiquement instructé pour « enregistrer le code » pour un éventuel événement futur. Je suis fier du
+Au cours de l'événement d'une semaine, de nombreuses personnes se sont engagées sur le site, ont fait du réseautage et
+ont répondu au sondage. Le Le Dyer Center l'a qualifié de succès, et j'étais spécifiquement instructé pour « enregistrer
+le code » pour un éventuel événement futur. Je suis fier du
 travail que j'ai accompli sur ce projet et je suis ravi de voyez où cela va à l'avenir.

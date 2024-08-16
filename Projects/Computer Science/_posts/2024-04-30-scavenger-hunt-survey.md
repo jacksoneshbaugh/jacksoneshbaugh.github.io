@@ -35,6 +35,7 @@ relatively inexpensive.
 
 ## Conclusion
 
-At the Dyer Center's event (for which this application was developed), the scavenger hunt was a hit. I was specifically
-instucted to "save the code" for a possible future event. I am proud of the work I did on this project and am excited to
+Over the course of the week-long event, many people engaged with the site, networking and filling out the survey. The
+Dyer Center called it a success, and I was specifically instructed to "save the code" for a possible future event. I am
+proud of the work I did on this project and am excited to
 see where it goes in the future.
