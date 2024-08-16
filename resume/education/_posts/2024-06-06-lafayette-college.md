@@ -16,7 +16,7 @@ Currently, I am a student at Lafayette College, pursuing a Bachelor of Science i
 Arts in French with a minor in Biotechnology. I am expected to graduate in May 2027 and have maintained a 4.0 GPA
 throughout my time at Lafayette College.
 
-At Lafayette, I have taken a variety of courses in computer science and French, while maintaining invested in the
+At Lafayette, I have taken a variety of courses in computer science and French, while staying invested in the
 community that the college has to offer. I've been involved in plenty of clubs and organizations, such as the Lafayette
 College Concert Band, Pep Band, Jazz Ensemble, and Jazz Combo. Additionally, I am the A/V Technician for and a member of
 the
