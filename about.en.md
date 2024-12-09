@@ -40,8 +40,9 @@ soon begin. I became a leopard.
 
 And that's where my story ends for now. I'm still young, and I've got so much ahead of me. But with faith in God,
 perseverance, and joy, I can't see myself stopping anytime soon. Ultimately, my goal is to become a professor of
-computer science and to focus my research on bioinformatics, a field that I believe will soon explode and change the
-world.
+computer science and to focus my research on ways we can use computer science to improve other fields. For example, I am
+super interested in bioinformatics, the marrying of biology and computer science, a field that I believe will soon
+explode and change the world.
 
 <div class="carousel">
             <img src="/images/about/about-1.jpeg" alt="My family and I"/>

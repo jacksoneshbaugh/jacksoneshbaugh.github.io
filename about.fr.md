@@ -60,8 +60,9 @@ commencer. Je suis devenu un léopard.
 Et c'est là que mon histoire s'arrête pour l'instant. Je suis encore jeune, et j'ai
 tellement
 de choses devant moi. Mais avec la foi en Dieu, la persévérance et la joie, je ne me vois pas m'arrêter de
-sitôt. À terme, mon objectif est de devenir professeur d'informatique et d'axer mes recherches sur la
-bioinformatique, un domaine qui, je crois, va bientôt exploser et changer le monde.
+sitôt. Mon objectif ultime est de devenir professeur d’informatique et de concentrer mes recherches sur les moyens
+d’utiliser l’informatique pour améliorer d’autres domaines. Par exemple, je suis très intéressé par la bioinformatique,
+le mariage de la biologie et de l’informatique, un domaine qui, selon moi, va bientôt exploser et changer le monde.
 
 <div class="carousel">
             <img src="/images/about/about-1.jpeg" alt="My family and I"/>
