@@ -20,6 +20,11 @@ tellement amusante, et depuis, j'ai chanté au moins une chanson à chaque conce
 {% include youtube-video.html id="tH-lK8zfSOY" %}
 <br />
 
+Au cours du semestre de printemps 2024, j'ai interprété « Paper Moon » (sans enregistrement) et au semestre d'automne de
+la même année, j'ai chanté « My Kind of Town ».
+
+{% include youtube-video.html id="wBHeAzcNMu0" %}
+
 Tout au long de mon temps dans le combo jazz, j'ai beaucoup appris sur la musique et la performance de jazz de mes pairs
 et j'ai apprécié
 l'occasion de me produire à la fin de chaque semestre.
