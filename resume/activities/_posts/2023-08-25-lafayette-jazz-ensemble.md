@@ -20,3 +20,10 @@ ensemble. I sang "Throw it Away" by Abbey Lincoln, and the performance went real
 and different from singing with the jazz combo (but both are fun!).
 
 {% include youtube-video.html id="A42XXEZvjUY" %}
+
+In the Fall 2024 semester, I had the privilege of continuing my jazz vocal journey with Jeff "Tain" Watts and the
+Lafayette College Jazz Ensemble with this Frank Sinatra
+classic tune, "The Way You Look Tonight," arranged by me. It was a super enjoyable experience—I always enjoy singing
+with this band behind me!
+
+{% include youtube-video.html id="IhS8pVggkyo" %}

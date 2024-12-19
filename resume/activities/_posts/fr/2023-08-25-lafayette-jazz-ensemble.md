@@ -21,3 +21,9 @@ l'ensemble. J'ai chanté « Throw it Away » de Abbey Lincoln, et la performance
 expérience tellement amusante, et different que chanter avec le combo jazz (mais tous les deux sont amusantes !).
 
 {% include youtube-video.html id="A42XXEZvjUY" %}
+
+Au semestre d'automne 2024, j'ai eu le privilège de poursuivre mon parcours vocal de jazz avec Jeff « Tain » Watts et le
+Lafayette College Jazz Ensemble avec ce Frank Sinatra chanson classique, « The Way You Look Tonight », arrangée par moi.
+C'était une expérience super agréable, j'aime toujours chanter avec cette ensemble derrière moi !
+
+{% include youtube-video.html id="IhS8pVggkyo" %}
