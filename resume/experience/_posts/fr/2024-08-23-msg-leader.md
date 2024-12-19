@@ -16,4 +16,4 @@ compétences précieuses en dehors de la classe. J'organise deux groupes d'étud
 également pendant les cours, en répondant questions et aider les étudiants dans leur travail.
 
 Au semestre d'automne 2024, j'ai été responsable du cours « Médias numériques » sous la direction de Justin Smith, et
-vous pouvez trouver les ressources que j'ai créées pendant ce semestre sur ma [page des projets](/projets).
+vous pouvez trouver les ressources que j'ai créées pendant ce semestre sur ma [page des projets](/projects).
