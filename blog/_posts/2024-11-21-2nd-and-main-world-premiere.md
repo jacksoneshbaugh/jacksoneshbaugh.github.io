@@ -2,7 +2,7 @@
 layout: post
 title: "World Premiere of '2nd & Main,' my String Quartet Composition"
 listed-date: "November 21, 2024"
-image: "/images/blog/2nd-and-main.jpeg"
+image: "/images/blog/2nd-and-main.png"
 lang: "en"
 location: "Williams Center for the Arts, Lafayette College, Easton, PA"
 ---
@@ -22,7 +22,7 @@ Here's what I wrote in the program notes for "2nd & Main:"
 > intersection, capturing its rhythm and reflecting its complex
 > choreography.
 
-{% include youtube-video.html id="sdd8jsIB7UI" %}
+{% include youtube-video.html id="w9us1ZL8CBc" %}
 
 I'd like to thank the Contemporary Music Ensemble, director Holly Roadfeldt, and the members of the string quartet who
 performed the piece. I'd also like to highlight one performer, violist Jamie Lin, who was particularly helpful during

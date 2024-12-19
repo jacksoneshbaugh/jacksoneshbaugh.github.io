@@ -2,7 +2,7 @@
 layout: post
 title: "Première mondiale de '2nd & Main', ma composition pour quatuor à cordes"
 listed-date: "le 21 novembre 2024"
-image: "/images/blog/2nd-and-main.jpeg"
+image: "/images/blog/2nd-and-main.png"
 lang: "fr"
 location: "Williams Center for the Arts, Lafayette College, Easton, Pennsylvanie"
 ---
@@ -21,7 +21,7 @@ Here's what I wrote in the program notes for "2nd & Main:"
 > pièce explore le flux et le reflux d'une intersection, capturant son rythme et reflétant
 > son chorégraphie.
 
-{% include youtube-video.html id="sdd8jsIB7UI" %}
+{% include youtube-video.html id="w9us1ZL8CBc" %}
 
 Je tiens à remercier le Contemporary Music Ensemble, la directrice Holly Roadfeldt et les membres du quatuor à cordes
 qui ont a interprété la pièce. J'aimerais également souligner l'un des interprètes, l'altiste Jamie Lin, qui a été
