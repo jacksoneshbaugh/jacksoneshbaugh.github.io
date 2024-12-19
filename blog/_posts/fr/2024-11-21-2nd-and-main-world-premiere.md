@@ -4,7 +4,7 @@ title: "Première mondiale de '2nd & Main', ma composition pour quatuor à corde
 listed-date: "le 21 novembre 2024"
 image: "/images/blog/2nd-and-main.jpeg"
 lang: "fr"
-location: "Williams Center for the Arts, Lafayette College, Easton, PA"
+location: "Williams Center for the Arts, Lafayette College, Easton, Pennsylvanie"
 ---
 
 Au cours du semestre de printemps 2024, j'ai composé une pièce pour quatuor à cordes que j'ai intitulée « 2nd & Main ».
