@@ -14,7 +14,7 @@ links: [
 ]
 ---
 
-This paper investigates the mathematical foundation and application of linear algebra in artificial neural networks (
-ANNs), a widely used model in machine learning (ML). We begin by explaining the mathematical building blocks of ML
+This paper investigates the mathematical foundation and application of linear algebra in artificial neural networks
+(ANNs), a widely used model in machine learning (ML). We begin by explaining the mathematical building blocks of ML
 algorithms, highlighting how their structure relies on linear algebra. The discussion then transitions from theory to
 practice by implementing an ANN to solve the XOR problem and running a prediction through manual calculations.
