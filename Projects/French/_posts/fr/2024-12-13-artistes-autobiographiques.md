@@ -10,7 +10,7 @@ description: >-
 authors: [ { github: "https://github.com/jacksoneshbaugh", image: "/images/jackson.jpg", name: "Jackson Eshbaugh" } ]
 
 links: [
-  { title: "Lire le papier", url: "/uploads/Artistes%20Autobiographiques%20du%20Moyen-Orient.pdf" }
+  { title: "Lire le papier", url: "/uploads/Artistes%20Autobiographiques%20du%20Moyen-Orient.pdf" },
   { title: "Voir le présentation", url: "/uploads/Artistes%20Autobiographiques%20du%20Moyen-Orient%20présentation.pdf" }
 ]
 ---
