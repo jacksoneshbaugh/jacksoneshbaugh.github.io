@@ -1,6 +1,6 @@
 ---
 layout: project
-lang: "en"
+lang: "fr"
 title: "Des matrices aux modèles : les réseaux neuronaux expliqués"
 listed-date: "déc. 2024"
 domain: "Mathématiques & Informatique"
