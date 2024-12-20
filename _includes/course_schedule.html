@@ -1,0 +1,111 @@
+<style>
+    /* General container styles */
+    .schedule-container {
+        display: flex;
+        flex-wrap: wrap; /* Ensures responsiveness */
+        gap: 20px;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    .term {
+        flex: 1 1 45%; /* Each term takes up about 45% of the container */
+        min-width: 300px; /* Prevents tables from getting too small on narrow screens */
+    }
+
+    .term h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        color: #333;
+    }
+
+    /* Table styles */
+    .schedule {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .schedule caption {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+        color: #444;
+    }
+
+    .schedule th,
+    .schedule td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .schedule th {
+        background-color: #f7f7f7;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .schedule tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .schedule tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+        .schedule-container {
+            flex-direction: column; /* Stacks the terms vertically */
+            gap: 10px;
+        }
+
+        .term {
+            flex: 1 1 100%; /* Full-width tables on narrow screens */
+        }
+    }
+</style>
+<div class="schedule-container">
+    <div class="term">
+        <h2>{{ include.fall_title }}</h2>
+        <table class="schedule">
+            <thead>
+            <tr>
+                <th>Course Number</th>
+                <th>Course Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for course in include.fall_courses %}
+            <tr>
+                <td>{{ course.number }}</td>
+                <td>{{ course.name }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="term">
+        <h2>{{ include.spring_title }}</h2>
+        <table class="schedule">
+            <thead>
+            <tr>
+                <th>Course Number</th>
+                <th>Course Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for course in include.spring_courses %}
+            <tr>
+                <td>{{ course.number }}</td>
+                <td>{{ course.name }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -32,3 +32,35 @@ way.
     <div class="item"><img src="/images/pate-band-2.jpeg" /></div>
     <div class="item"><img src="/images/about/about-3.jpeg" /></div>
 </div>
+
+---
+
+## Program of Study
+
+{% include course_schedule.html
+fall_title="Fall 2019"
+fall_courses=site.data.fall_2019
+spring_title="Spring 2020"
+spring_courses=site.data.spring_2020
+%}
+
+{% include course_schedule.html
+fall_title="Fall 2020"
+fall_courses=site.data.fall_2020
+spring_title="Spring 2021"
+spring_courses=site.data.spring_2021
+%}
+
+{% include course_schedule.html
+fall_title="Fall 2021"
+fall_courses=site.data.fall_2021
+spring_title="Spring 2022"
+spring_courses=site.data.spring_2022
+%}
+
+{% include course_schedule.html
+fall_title="Fall 2022"
+fall_courses=site.data.fall_2022
+spring_title="Spring 2023"
+spring_courses=site.data.spring_2023
+%}
