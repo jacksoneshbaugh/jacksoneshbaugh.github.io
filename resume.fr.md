@@ -4,136 +4,98 @@ title: CV
 permalink: /cv/
 page_id: resume
 lang: "fr"
+katex: true
 ---
 
-<div class="center">
-    <h2>Jackson Eshbaugh</h2>
-    <p>étudiant en informatique et français &bull; Lafayette College</p>
-</div>
+*Dernière mise à jour : mai 2025*
 
-## Education
+*Version PDF à venir*
 
-<div class="timeline">
-    {% for post in site.categories["education"] %}
-        {% if post.lang == "fr" %}
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">{{ post.listed-date }}</div>
-            <a class="timeline-title" href="{{ post.url }}">{{ post.title }}</a>
-            <p>{{ post.location }}<br /><i>GPA: {{ post.gpa }}</i></p>
-            <span class="timeline-dot"></span>
-            <p>{{ post.description }}</p>
-        </div>
-    </div>
-        {% endif %}
-    {% endfor %}
-</div>
+# Jackson Eshbaugh
 
-## Honors & Awards
+Étudiant en informatique et en français à Lafayette College (promotion 2027), spécialisé en interprétabilité des réseaux
+de neurones, en traitement automatique des langues multilingues, et en recherche interdisciplinaire en informatique.
 
-<div class="timeline">
-    {% for post in site.categories["honors"] %}
-        {% if post.lang == "fr" %}
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">{{ post.listed-date }}</div>
-            <a class="timeline-title" href="{{ post.url }}">{{ post.title }}</a>
-            <p>{{ post.location }}</p>
-            <span class="timeline-dot"></span>
-            <p>{{ post.description }}</p>
-        </div>
-    </div>
-        {% endif %}
-    {% endfor %}
-</div>
+---
 
-## Experience
+# 🎓 Formation
 
-<div class="timeline">
-    {% for post in site.categories["experience"] %}
-        {% if post.lang == "fr" %}
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">{{ post.listed-date }}</div>
-            <a class="timeline-title" href="{{ post.url }}">{{ post.title }}</a>
-            <p>{{ post.location }}</p>
-            <span class="timeline-dot"></span>
-            <p>{{ post.description }}</p>
-        </div>
-    </div>
-        {% endif %}
-    {% endfor %}
-</div>
+**Lafayette College**
 
-## Skills
+Licence en Informatique (prévue en 2027)
 
-<div class="row">
-    <div class="column">
-        <h3>Langages de programmation</h3>
-        <ul class="skill-list">
-            <li>Java</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript (vanilla, Node)</li>
-            <li>TypeScript</li>
-            <li>Python</li>
-            <li>PHP</li>
-            <li>SQL</li>
-        </ul>
-    </div>
-    <div class="column">
-        <h3>Outils et practiques</h3>
-        <ul class="skill-list">
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Visual Studio Code</li>
-            <li>JetBrains IDEs</li>
-            <li>Eclipse</li>
-            <li>Test unitaire</li>
-            <li>JUnit</li>
-            <li>Conception de logiciels</li>
-        </ul>
-    </div>
-    <div class="column">
-        <h3>Langues parlées</h3>
-        <ul class="skill-list">
-            <li>Anglais (Langue natale)</li>
-            <li>French (Compétence professionnelle)</li>
-        </ul>
-    </div>
-</div>
+Licence en Langue Française (prévue en 2027)
 
-## Leadership
+**Moyenne générale (GPA)** : 4.0 / 4.0
 
-<div class="timeline">
-    {% for post in site.categories["leadership"] %}
-        {% if post.lang == "fr" %}
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">{{ post.listed-date }}</div>
-            <a class="timeline-title" href="{{ post.url }}">{{ post.title }}</a>
-            <p>{{ post.location }}</p>
-            <span class="timeline-dot"></span>
-            <p>{{ post.description }}</p>
-        </div>
-    </div>
-        {% endif %}
-    {% endfor %}
-</div>
+---
 
-## Activities
+# 🔬 Expérience de Recherche
 
-<div class="timeline">
-    {% for post in site.categories["activities"] %}
-        {% if post.lang == "fr" %}
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">{{ post.listed-date }}</div>
-            <a class="timeline-title" href="{{ post.url }}">{{ post.title }}</a>
-            <p>{{ post.location }}</p>
-            <span class="timeline-dot"></span>
-            <p>{{ post.description }}</p>
-        </div>
-    </div>
-        {% endif %}
-    {% endfor %}
-</div>
+### Boursier Excel
+
+**Assistant de recherche, Département d’informatique**
+
+*Lafayette College · Janvier 2025 — Présent*
+
+* Recherche en interprétabilité des modèles d’apprentissage automatique et équité énergétique
+* Collaboration avec le Professeur Jorge Silveyra
+* Projet : *Amélioration de la sécurité énergétique par réseaux de neurones et arbres de décision*
+  → [Voir détails](/research)
+
+### Mémoire de licence
+
+**Départements d’informatique et d'études de la langue et de la littérature**
+
+*Août 2025 — Présent*
+
+* Développement de méthodes de détection des expressions idiomatiques en français via la traduction automatique
+  neuronale
+* Intégration de la théorie linguistique avec des modèles neuronaux
+  → [Plus d’infos](/research)
+
+---
+
+# 👨‍🏫 Expérience pédagogique
+
+### Assistant pédagogique
+
+**Département d’informatique**
+
+*Automne 2024, Printemps 2025, Automne 2025*
+
+* Assistance à l’enseignement des cours d’introduction à l’informatique
+* Conception et animation de séances de révision et de laboratoires de débogage
+  → [Voir page enseignement](/teaching)
+
+---
+
+# 🧠 Cours marquants
+
+* Apprentissage automatique
+* Théorie de la calculabilité
+* Principes des langages de programmation
+* Structures de données
+* Programmation système
+* Analyse littéraire française
+
+---
+
+# 🛠️ Compétences techniques
+
+**Langages** : Python, Java, JavaScript, SML
+
+**Frameworks ML** : TensorFlow, scikit-learn
+
+**Développement web** : Flask, NodeJS, SQL, Jekyll
+
+**Outils** : Git, VS Code, IDE JetBrains, \\( \LaTeX \\)
+
+---
+
+# 📚 Profils académiques
+
+<a href="https://orcid.org/0009-0009-1806-2166" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+  <img alt="ORCID iD" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" style="margin: 0; vertical-align: middle;" />
+  <span style="font-size: 0.95rem;">ORCID : 0009-0009-1806-2166</span>
+</a>

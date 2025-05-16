@@ -11,7 +11,7 @@ Je peux faire des choses intéressantes ! Voici quelques-uns des projets sur les
 <!-- TODO: Add a filter bar for filtering by subject -->
 <div class="project-list">
     {% for post in site.categories["Projects"] %}
-        {% if post.lang == "fr" %}
+        {% if post.lang == "fr" and post.featured == true %}
     <div class="project">
         <img class="project-img" src="{{ post.image }}" alt="{{ post.title }}">
         <div class="project-contents">

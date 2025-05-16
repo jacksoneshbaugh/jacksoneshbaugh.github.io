@@ -8,8 +8,8 @@
 <meta property="og:title" content="Résumé" />
 <meta name="author" content="Jackson Eshbaugh" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="{“en”=&gt;”Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. He is passionate about technology, language, and their intersection as well as bioinformatics, the intersection of computer science and biology.”, “fr”=&gt;”Jackson Eshbaugh est un étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Il est passionné par la technologie, la langue et leur intersection ainsi que la bioinformatique, l’intersection de l’informatique et de la biologie.”}" />
-<meta property="og:description" content="{“en”=&gt;”Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. He is passionate about technology, language, and their intersection as well as bioinformatics, the intersection of computer science and biology.”, “fr”=&gt;”Jackson Eshbaugh est un étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Il est passionné par la technologie, la langue et leur intersection ainsi que la bioinformatique, l’intersection de l’informatique et de la biologie.”}" />
+<meta name="description" content="{“en”=&gt;”Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. His work centers on machine learning interpretability, multilingual natural language processing, and programming languages. He is especially passionate about applying computer science across disciplines—connecting language, biology, and education through code.”, “fr”=&gt;”Jackson Eshbaugh est étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Ses travaux portent sur l’interprétabilité des modèles d’apprentissage automatique, le traitement du langage naturel multilingue et les langages de programmation. Il est particulièrement passionné par les projets interdisciplinaires qui relient l’informatique à la langue, à la biologie et à l’éducation.”}" />
+<meta property="og:description" content="{“en”=&gt;”Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. His work centers on machine learning interpretability, multilingual natural language processing, and programming languages. He is especially passionate about applying computer science across disciplines—connecting language, biology, and education through code.”, “fr”=&gt;”Jackson Eshbaugh est étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Ses travaux portent sur l’interprétabilité des modèles d’apprentissage automatique, le traitement du langage naturel multilingue et les langages de programmation. Il est particulièrement passionné par les projets interdisciplinaires qui relient l’informatique à la langue, à la biologie et à l’éducation.”}" />
 <link rel="canonical" href="http://localhost:4000/resume/" />
 <meta property="og:url" content="http://localhost:4000/resume/" />
 <meta property="og:site_name" content="Jackson Eshbaugh" />
@@ -17,10 +17,28 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Résumé" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jackson Eshbaugh"},"description":"{“en”=&gt;”Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. He is passionate about technology, language, and their intersection as well as bioinformatics, the intersection of computer science and biology.”, “fr”=&gt;”Jackson Eshbaugh est un étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Il est passionné par la technologie, la langue et leur intersection ainsi que la bioinformatique, l’intersection de l’informatique et de la biologie.”}","headline":"Résumé","url":"http://localhost:4000/resume/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jackson Eshbaugh"},"description":"{“en”=&gt;”Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. His work centers on machine learning interpretability, multilingual natural language processing, and programming languages. He is especially passionate about applying computer science across disciplines—connecting language, biology, and education through code.”, “fr”=&gt;”Jackson Eshbaugh est étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Ses travaux portent sur l’interprétabilité des modèles d’apprentissage automatique, le traitement du langage naturel multilingue et les langages de programmation. Il est particulièrement passionné par les projets interdisciplinaires qui relient l’informatique à la langue, à la biologie et à l’éducation.”}","headline":"Résumé","url":"http://localhost:4000/resume/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/atom.xml" title="Jackson Eshbaugh" />
-<link rel="stylesheet" href="/css/site.css"></head>
+<link rel="stylesheet" href="/css/site.css">
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+
+<!-- JavaScript -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body,{
+    delimiters: [
+      { left: '$$',  right: '$$',  display: true  },
+      { left: '$',   right: '$',   display: false },
+      { left: '\\[', right: '\\]', display: true  },
+      { left: '\\(', right: '\\)', display: false }
+  ]});">
+</script>
+
+</head>
 <body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Jackson Eshbaugh</a><nav class="site-nav">
@@ -33,7 +51,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/resume/">Résumé</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/contact/">Contact</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/research/">Research</a><a class="page-link" href="/teaching/">Teaching</a><a class="page-link" href="/resume/">Résumé</a><a class="page-link" href="/contact/">Contact</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -45,305 +63,95 @@
   </header>
 
   <div class="post-content">
-    <div class="center">
-    <h2>Jackson Eshbaugh</h2>
-    <p>Computer Science &amp; French Student &bull; Lafayette College</p>
-</div>
+    <p><em>Last updated: May 2025</em><br />
+<em>PDF version coming soon</em></p>
 
-<h2 id="education">Education</h2>
+<h1 id="jackson-eshbaugh">Jackson Eshbaugh</h1>
 
-<div class="timeline">
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">2023 — 2027</div>
-            <a class="timeline-title" href="/resume/education/2024/06/06/lafayette-college.html">Lafayette College</a>
-            <p>Easton, PA<br /><i>GPA: 4.0</i></p>
-            <span class="timeline-dot"></span>
-            <p>Bachelor of Science in Computer Science and Bachelor of Arts in French with a minor in Biotechnology.</p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">2019 — 2023</div>
-            <a class="timeline-title" href="/resume/education/2024/06/06/freedom-high-school.html">Freedom High School</a>
-            <p>Bethlehem, PA<br /><i>GPA: 4.0</i></p>
-            <span class="timeline-dot"></span>
-            <p>High School Diploma, Salutatorian</p>
-        </div>
-    </div>
-        
-    
-</div>
+<p>Computer Science &amp; French student at Lafayette College (’27), focused on machine learning interpretability, multilingual
+NLP, and applying computer science to cross-disciplinary research.</p>
 
-<h2 id="honors--awards">Honors &amp; Awards</h2>
+<hr />
 
-<div class="timeline">
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">Spring 2024</div>
-            <a class="timeline-title" href="/resume/honors/2024/06/06/deans-list.html">Dean's List</a>
-            <p>Lafayette College</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">Fall 2023</div>
-            <a class="timeline-title" href="/resume/honors/2023/12/31/deans-list.html">Dean's List</a>
-            <p>Lafayette College</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">2023 — 2027</div>
-            <a class="timeline-title" href="/resume/honors/2023/07/15/marquis-scholar.html">Marquis Scholar</a>
-            <p>Lafayette College</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">2022 — 2023</div>
-            <a class="timeline-title" href="/resume/honors/2022/10/31/national-honor-society.html">National Honor Society</a>
-            <p>Freedom High School</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-</div>
+<h1 id="-education">🎓 Education</h1>
 
-<h2 id="experience">Experience</h2>
+<p><strong>Lafayette College</strong><br />
+B.S. in Computer Science (expected 2027)<br />
+A.B. in French Language (expected 2027)<br />
+<strong>GPA</strong>: 4.0 / 4.0</p>
 
-<div class="timeline">
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">August 2024 — Present</div>
-            <a class="timeline-title" href="/resume/experience/2024/08/23/msg-leader.html">Mentored Study Group Leader</a>
-            <p>Lafayette College &bull; Easton, PA</p>
-            <span class="timeline-dot"></span>
-            <p>As an MSG leader, I work closely with the professor of my assigned course to aid in student learning and achievement. I help during class and I host two two-hour mentored study groups where students can drop in and get help from me, or just work and ask questions as they arise.</p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">June 2024 — August 2024</div>
-            <a class="timeline-title" href="/resume/experience/2024/06/19/wfmz-it.html">IT Intern</a>
-            <p>WFMZ-TV (Channel 69) &bull; Allentown, PA</p>
-            <span class="timeline-dot"></span>
-            <p>I had the wonderful opportunity to work as an IT Intern at WFMZ-TV in Allentown, PA. I was responsible for providing technical support to the station's employees, maintaining the station's IT infrastructure, and assisting with the station's projects. I also assisted with the station's broadcast operations, including the station's live newscasts and other live broadcasts. IT in a broadcast environment is a unique and challenging field—I did anything and everything from cleaning computers to troubleshooting broadcast equipment to building chairs (no, really). I am grateful for the opportunity to work in such a dynamic and fast-paced environment.</p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">March 2024 — April 2024</div>
-            <a class="timeline-title" href="/resume/experience/2024/04/30/dyer-center-networking-scavenger-hunt.html">Lead Developer, Networking Scavenger Hunt</a>
-            <p>Dyer Center for Innovation and Entrepreneurship at Lafayette College</p>
-            <span class="timeline-dot"></span>
-            <p>Utilized Python and Flask to develop a web application used for scavenger hunt challenge. Made changes based on feedback from design partners. Oversaw deployment on Google Cloud and monitored for any issues that needed resolved.</p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">September 2023 — Present</div>
-            <a class="timeline-title" href="/resume/experience/2023/09/14/lafayette-dmcf-av-specialist.html">A/V Specialist</a>
-            <p>Lafayette DiscipleMakers Christan Fellowship &bull; Easton, PA</p>
-            <span class="timeline-dot"></span>
-            <p>Upgraded the visual system the fellowship uses for its Thursday night gatherings. Set up the system for each week’s gathering (including song lyrics, message notes, scripture references, and announcements). Operate this system and the sound system during each gathering. Troubleshoot any issues that may arise.</p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">July 2021 — Present</div>
-            <a class="timeline-title" href="/resume/experience/2021/07/17/hope-alliance-church-av-specialist.html">A/V Specialist</a>
-            <p>Hope Alliance Church &bull; Bethlehem, PA</p>
-            <span class="timeline-dot"></span>
-            <p>Created the live-streaming and visual setup used each Sunday at the church. Operate the system each Sunday. Troubleshoot any issues that may arise. Occasionally create graphics or other materials for the visuals (typically during holidays)</p>
-        </div>
-    </div>
-        
-    
-</div>
+<hr />
 
-<h2 id="skills">Skills</h2>
+<h1 id="-research-experience">🔬 Research Experience</h1>
 
-<div class="row">
-    <div class="column">
-        <h3>Programming Languages</h3>
-        <ul class="skill-list">
-            <li>Java</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript (vanilla, Node)</li>
-            <li>TypeScript</li>
-            <li>Python</li>
-            <li>PHP</li>
-            <li>SQL</li>
-        </ul>
-    </div>
-    <div class="column">
-        <h3>Tools &amp; Practices</h3>
-        <ul class="skill-list">
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Visual Studio Code</li>
-            <li>JetBrains IDEs</li>
-            <li>Eclipse</li>
-            <li>Unit Testing</li>
-            <li>JUnit</li>
-            <li>Software Design</li>
-        </ul>
-    </div>
-    <div class="column">
-        <h3>Spoken Languages</h3>
-        <ul class="skill-list">
-            <li>English (Native tongue)</li>
-            <li>French (Professional competence)</li>
-        </ul>
-    </div>
-</div>
+<h3 id="excel-scholar">Excel Scholar</h3>
 
-<h2 id="leadership">Leadership</h2>
+<p><strong>Research Assistant, Department of Computer Science</strong><br />
+<em>Lafayette College · January 2025—Present</em></p>
 
-<div class="timeline">
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">June 2022 — June 2023</div>
-            <a class="timeline-title" href="/resume/leadership/2023/06/08/fhs-band-president.html">President</a>
-            <p>Freedom High School Patriot Band &bull; Bethlehem, PA</p>
-            <span class="timeline-dot"></span>
-            <p>Oversaw the planning of numerous events. Brought the band together with a sense of pride, dignity, and spirit. Encouraged fellow band members throughout the year.</p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">June 2021 — June 2023</div>
-            <a class="timeline-title" href="/resume/leadership/2023/06/07/fhs-band-section-leader.html">Low Brass Section Leader</a>
-            <p>Freedom High School Patriot Band &bull; Bethlehem, PA</p>
-            <span class="timeline-dot"></span>
-            <p>Ensured both the marching and music was memorized and accurate. Planned and ran sectional rehearsals on an as-needed basis. Served as a liaison between leadership and the section, when necessary.</p>
-        </div>
-    </div>
-        
-    
-</div>
+<ul>
+  <li>Investigating interpretable machine learning and energy equity</li>
+  <li>Collaborating with Professor Jorge Silveyra</li>
+  <li>Project: <em>Improving Energy Security with Neural Networks and Decision Trees</em><br />
+→ <a href="/research">See details</a></li>
+</ul>
 
-<h2 id="activities">Activities</h2>
+<h3 id="undergraduate-thesis">Undergraduate Thesis</h3>
 
-<div class="timeline">
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">January 2024 — Present</div>
-            <a class="timeline-title" href="/resume/activities/marquis-players-pit/">Marquis Players Pit Orchestra</a>
-            <p>Easton, PA</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">August 2023 — Present</div>
-            <a class="timeline-title" href="/resume/activities/lafayette-pep-band/">Lafayette Pep Band</a>
-            <p>Easton, PA</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">August 2023 — Present</div>
-            <a class="timeline-title" href="/resume/activities/lafayette-jazz-ensemble/">Lafayette College Jazz Ensemble</a>
-            <p>Easton, PA</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">August 2023 — Present</div>
-            <a class="timeline-title" href="/resume/activities/lafayette-jazz-combo/">Lafayette College Jazz Combo</a>
-            <p>Easton, PA</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">August 2023 — Present</div>
-            <a class="timeline-title" href="/resume/activities/lafayette-concert-band/">Lafayette College Concert Band</a>
-            <p>Easton, PA</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-        
-    <div class="timeline-item">
-        <div class="timeline-contents">
-            <div class="timeline-date">December 2020 — May 2023</div>
-            <a class="timeline-title" href="/resume/activities/2020/12/15/fhs-minuteman-jazz-band.html">Freedom High School Minuteman Jazz Band</a>
-            <p>Bethlehem, PA</p>
-            <span class="timeline-dot"></span>
-            <p></p>
-        </div>
-    </div>
-        
-    
-</div>
+<p><strong>Departments of Computer Science &amp; Language and Literacy Studies</strong><br />
+<em>August 2025—Present</em></p>
+
+<ul>
+  <li>Developing idiom detection methods for French using NMT</li>
+  <li>Integrating linguistic theory with neural models<br />
+→ <a href="/research">More info</a></li>
+</ul>
+
+<hr />
+
+<h1 id="-teaching-experience">👨‍🏫 Teaching Experience</h1>
+
+<h3 id="teaching-assistant">Teaching Assistant</h3>
+
+<p><strong>Department of Computer Science</strong><br />
+<em>Fall 2024, Spring 2025, Fall 2025</em></p>
+
+<ul>
+  <li>Supported instruction for introductory CS courses</li>
+  <li>Designed and led review sessions and debugging labs<br />
+→ <a href="/teaching">See teaching overview</a></li>
+</ul>
+
+<hr />
+
+<h1 id="-coursework-highlights">🧠 Coursework Highlights</h1>
+
+<ul>
+  <li>Machine Learning</li>
+  <li>Theory of Computation</li>
+  <li>Principles of Programming Languages</li>
+  <li>Data Structures</li>
+  <li>Systems Programming</li>
+  <li>French Literary Analysis</li>
+</ul>
+
+<hr />
+
+<h1 id="️-technical-skills">🛠️ Technical Skills</h1>
+
+<p><strong>Languages</strong>: Python, Java, JavaScript, SML<br />
+<strong>ML Frameworks</strong>: TensorFlow, scikit-learn<br />
+<strong>Web Dev</strong>: Flask, NodeJS, SQL, Jekyll<br />
+<strong>Tools</strong>: Git, VS Code, JetBrains IDEs, \( \LaTeX \)</p>
+
+<hr />
+
+<h1 id="-academic-profiles">📚 Academic Profiles</h1>
+
+<p><a href="https://orcid.org/0009-0009-1806-2166" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+  <img alt="ORCID iD" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" style="margin: 0; vertical-align: middle;" />
+  <span style="font-size: 0.95rem;">ORCID: 0009-0009-1806-2166</span>
+</a></p>
 
   </div>
 
@@ -377,7 +185,7 @@
                 
             </div>
             <div class="footer-col">
-                <p>Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. He is passionate about technology, language, and their intersection as well as bioinformatics, the intersection of computer science and biology.</p>
+                <p>Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. His work centers on machine learning interpretability, multilingual natural language processing, and programming languages. He is especially passionate about applying computer science across disciplines—connecting language, biology, and education through code.</p>
             </div>
         </div>
         <div class="footer-col-wrapper">

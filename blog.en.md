@@ -22,6 +22,7 @@ lang: "en"
     <p>{{ post.content | strip_html | truncatewords: 200 }}...</p>
     <a href="{{ post.url }}" class="read-more">Read more</a>
 </div>
+<br />
 {% endif %}
 {% endfor %}
     

@@ -21,8 +21,8 @@
 title: Jackson Eshbaugh
 email: eshbaugj@lafayette.edu
 description: # this means to ignore newlines until "baseurl:"
-  en: "Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. He is passionate about technology, language, and their intersection as well as bioinformatics, the intersection of computer science and biology."
-  fr: "Jackson Eshbaugh est un étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Il est passionné par la technologie, la langue et leur intersection ainsi que la bioinformatique, l'intersection de l'informatique et de la biologie."
+  en: "Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. His work centers on machine learning interpretability, multilingual natural language processing, and programming languages. He is especially passionate about applying computer science across disciplines—connecting language, biology, and education through code."
+  fr: "Jackson Eshbaugh est étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Ses travaux portent sur l’interprétabilité des modèles d’apprentissage automatique, le traitement du langage naturel multilingue et les langages de programmation. Il est particulièrement passionné par les projets interdisciplinaires qui relient l’informatique à la langue, à la biologie et à l’éducation."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jacksoneshbaugh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jacksoneshbaugh
@@ -36,12 +36,12 @@ author:
 header_pages:
   - about.en.md
   - about.fr.md
-  - projects.en.md
-  - projects.fr.md
+  - research.en.md
+  - research.fr.md
+  - teaching.en.md
+  - teaching.fr.md
   - resume.en.md
   - resume.fr.md
-  - blog.en.md
-  - blog.fr.md
   - contact.en.md
   - contact.fr.md
 
@@ -52,7 +52,7 @@ minima:
     - { platform: x, user_url: "https://twitter.com/jacksoneshbaugh" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/jacksoneshbaugh/" }
 
-# Build settings
+    # Build settings
 theme: minima
 plugins:
   - jekyll-feed

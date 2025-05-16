@@ -10,7 +10,7 @@ I can get up to some interesting stuff! Here are some of the projects I've worke
 
 <div class="project-list">
     {% for post in site.categories["Projects"] %}
-        {% if post.lang == "en" %}
+        {% if post.lang == "en" and post.featured == true %}
     <div class="project">
         <img class="project-img" src="{{ post.image }}" alt="{{ post.title }}">
         <div class="project-contents">

@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: À propos de moi
+title: À propos
 permalink: /a-propos/
 page_id: about
 lang: fr

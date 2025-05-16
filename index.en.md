@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 lang: "en"
 page_id: home
@@ -11,19 +8,23 @@ title: "Computer Science and French Student"
 
 <head><title>Jackson Eshbaugh</title></head>
 <div class="center">
-<div class="image-text">
+  <div class="image-text">
     <img src="../images/jackson.jpg" alt="Jackson Eshbaugh"/>
     <div class="text">
-        <div class="inner">
-            <h1>Jackson Eshbaugh</h1>
-            <p>I'm a computer science and French student at Lafayette College in Easton, PA. I am passionate about technology, language, and their intersection as well as bioinformatics, the intersection of computer science and biology.</p>
-        </div>
+      <div class="inner">
+        <h1>Jackson Eshbaugh</h1>
+        <p>I study computer science and French at Lafayette College, where I focus on machine learning interpretability and multilingual NLP. My work explores how artificial systems understand language, and how we can make those systems more transparent, inclusive, and useful across disciplines.</p>
+      </div>
     </div>
-</div>
-<div class="pop">From coding in Java to conversing in French, I'm unraveling the language of life—<b>one sequence at a time</b>.</div>
-<div class="navigation-buttons">
+  </div>
+
+  <div class="pop">Interpreting models, embracing language, <b>bridging disciplines</b>.</div>
+
+  <div class="navigation-buttons">
     <a href="about" class="button">About Me</a>
-    <a href="projects" class="button secondary">My Projects</a>
-    <a href="resume" class="button tertiary">Résumé</a>
+    <a href="research" class="button secondary">My Research</a>
+    <a href="teaching" class="button tertiary">My Teaching</a>
+    <a href="resume" class="button secondary">Résumé</a>
     <a href="contact" class="button">Get in Touch</a>
-</div></div>
+  </div>
+</div>
