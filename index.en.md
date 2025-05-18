@@ -13,7 +13,7 @@ title: "Computer Science and French Student"
     <div class="text">
       <div class="inner">
         <h1>Jackson Eshbaugh</h1>
-        <p>I study computer science and French at Lafayette College, where I focus on machine learning interpretability and multilingual NLP. My work explores how artificial systems understand language, and how we can make those systems more transparent, inclusive, and useful across disciplines.</p>
+        <p>I study computer science and French at Lafayette College, where I focus my research on machine learning interpretability and multilingual NLP. My work explores how artificial systems understand language, and how we can make those systems more transparent, inclusive, and useful across disciplines.</p>
       </div>
     </div>
   </div>
