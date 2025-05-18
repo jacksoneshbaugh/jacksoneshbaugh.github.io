@@ -21,8 +21,8 @@
 title: Jackson Eshbaugh
 email: eshbaugj@lafayette.edu
 description: # this means to ignore newlines until "baseurl:"
-  en: "Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. His work centers on machine learning interpretability, multilingual natural language processing, and programming languages. He is especially passionate about applying computer science across disciplines—connecting language, biology, and education through code."
-  fr: "Jackson Eshbaugh est étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Ses travaux portent sur l’interprétabilité des modèles d’apprentissage automatique, le traitement du langage naturel multilingue et les langages de programmation. Il est particulièrement passionné par les projets interdisciplinaires qui relient l’informatique à la langue, à la biologie et à l’éducation."
+  en: "Jackson Eshbaugh is a computer science and French student at Lafayette College in Easton, PA. His work centers on machine learning interpretability and multilingual natural language processing. He is especially passionate about applying computer science across disciplines—connecting language, biology, and education through code."
+  fr: "Jackson Eshbaugh est étudiant en informatique et en français au Lafayette College à Easton, en Pennsylvanie. Ses travaux portent sur l’interprétabilité des modèles d’apprentissage automatique et le traitement du langage naturel multilingue. Il est particulièrement passionné par les projets interdisciplinaires qui relient l’informatique à la langue, à la biologie et à l’éducation."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jacksoneshbaugh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jacksoneshbaugh
