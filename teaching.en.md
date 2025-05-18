@@ -45,7 +45,7 @@ Professor B is incredibly gifted at her job, and I am very grateful to have been
 
 **Professor**: Lauren Biernacki
 
-**Resources**: I'm still pulling together this semester's resources, but check back soon!
+**Resources**: You can view all the resources I created for this semester [here](https://github.com/jacksoneshbaugh/CS-104-Spring-2025).
 
 ### Fall 2024: CS 105 (Digital Media Computing)
 
@@ -56,4 +56,4 @@ grateful to have been able to serve under his leadership.
 **Professor**: Justin Smith
 
 **Resources**: You can view all the resources I created for this
-semester [here](https://github.com/jacksoneshbaugh/CS-105-MSG-Materials)
+semester [here](https://github.com/jacksoneshbaugh/CS-105-MSG-Materials).
