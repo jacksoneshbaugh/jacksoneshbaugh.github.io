@@ -49,7 +49,8 @@ Le professeur B est incroyablement doué dans son travail, et je suis très reco
 
 **Professeur**: Lauren Biernacki
 
-**Ressources**: Je suis encore en train de rassembler les ressources de ce semestre, mais revenez bientôt!
+**Ressources**: Vous pouvez consulter toutes les ressources que j’ai créées pour ce
+semestre [ici](https://github.com/jacksoneshbaugh/CS-104-Spring-2025).
 
 ### Automne 2024: CS 105 (Informatique des médias numériques)
 
@@ -61,4 +62,4 @@ direction.
 **Professeur**: Justin Smith
 
 **Ressources**: Vous pouvez consulter toutes les ressources que j’ai créées pour ce
-semestre [ici](https://github.com/jacksoneshbaugh/CS-105-MSG-Materials)
+semestre [ici](https://github.com/jacksoneshbaugh/CS-105-MSG-Materials).
