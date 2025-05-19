@@ -13,7 +13,7 @@ title: "Étudiant en informatique et en français"
     <div class="text">
       <div class="inner">
         <h1>Jackson Eshbaugh</h1>
-        <p>J’étudie l’informatique et le français au Lafayette College, et je concentre mes recherches sur l’interprétabilité des réseaux neuronal et le traitement du langage naturel multilingue. Mon travail explore comment les systèmes artificiels comprennent le langage, et comment les rendre plus transparents, inclusifs et utiles dans différents domaines.</p>
+        <p>J’étudie l’informatique et le français au Lafayette College, et je concentre sur l’interprétabilité des réseaux neuronaux et le traitement du langage naturel multilingue. Mon travail explore comment les systèmes artificiels comprennent le langage, et comment les rendre plus transparents, inclusifs et utiles dans différents domaines.</p>
       </div>
     </div>
   </div>
