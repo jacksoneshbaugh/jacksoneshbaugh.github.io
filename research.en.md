@@ -39,12 +39,16 @@ You can view a summary of my research projects and scholarly output on my
 
 **April 2025–Present**
 
-In this project, I evaluate the reliability of linear surrogates for interpreting neural networks. Using a metric I call
-the lambda score, I measure how well linear models can approximate the predictions and representations of trained
-networks. While surrogates often achieve high correlation, I show that this does not imply faithful approximation — and
-in fact, the remaining unexplained variance may correspond to the network’s actual decision logic. This suggests that
-simple linear proxies can be misleading, especially when key non-linear structure is concentrated in low-volume regions
-of the input space.
+In this project, I evaluate the reliability of linear surrogates for interpreting neural networks. Using a metric I call the lambda score, I measure how well linear models can approximate the predictions and representations of trained networks. While surrogates often achieve high correlation, I show that this does not imply faithful approximation—and in fact, the remaining unexplained variance may correspond to the network’s actual decision logic. This suggests that simple linear proxies can be misleading, especially when key nonlinear behaviors reside in low-variance regions of the input space.
+
+Looking ahead, I’m interested in developing a related framework for classification tasks to explore whether the disconnect between fidelity and accuracy observed in regression also arises in classification settings. I also aim to characterize the fidelity–accuracy gap more precisely by studying the relationship between λ(f) and the R² between the surrogate and the ground truth—analyzing when and why high surrogate fidelity fails to preserve predictive performance.
+
+### Publications  
+**Jackson Eshbaugh.**  
+*Fidelity Isn’t Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth.*  
+arXiv preprint [arXiv:2506.12176](https://arxiv.org/abs/2506.12176), June 2025.  
+📄 [PDF](https://arxiv.org/pdf/2506.12176) 🔗 [arXiv](https://arxiv.org/abs/2506.12176) 💻 [Code](https://github.com/jacksoneshbaugh/lambda-linearity-score)
+
 
 ## Detecting French Idioms Using Neural Machine Translation Techniques
 
