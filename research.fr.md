@@ -39,12 +39,16 @@ profil ORCID</a>.
 
 **avril 2025–Aujourd'hui**
 
-Dans ce projet, j'évalue la fiabilité des substituts linéaires pour l'interprétation des réseaux de neurones. À l'aide
-d'une métrique appelée score lambda, je mesure la capacité des modèles linéaires à approximer les prédictions et les
-représentations des réseaux entraînés. Si les substituts atteignent souvent une forte corrélation, je montre que cela
-n'implique pas une approximation fidèle ; en fait, la variance inexpliquée restante peut correspondre à la logique de
-décision réelle du réseau. Cela suggère que les substituts linéaires simples peuvent être trompeurs, en particulier
-lorsque la structure non linéaire clé est concentrée dans des régions à faible volume de l'espace d'entrée.
+Dans ce projet, j'évalue la fiabilité des substituts linéaires pour l'interprétation des réseaux de neurones. À l'aide d'une métrique appelée score lambda, je mesure la capacité des modèles linéaires à approximer les prédictions et les représentations des réseaux entraînés. Si les substituts atteignent souvent une forte corrélation, je montre que cela n'implique pas une approximation fidèle ; en fait, la variance inexpliquée restante peut correspondre à la logique de décision réelle du réseau. Cela suggère que les substituts linéaires simples peuvent être trompeurs, en particulier lorsque des comportements non linéaires clés se situent dans des régions à faible variance de l'espace d'entrée.
+
+À l'avenir, je m'intéresse au développement d'un cadre connexe pour les tâches de classification afin de déterminer si le décalage entre fidélité et précision observé en régression se produit également dans les contextes de classification. Je cherche également à caractériser plus précisément l'écart fidélité-précision en étudiant la relation entre λ(f) et le R² entre le substitut et la vérité terrain, en analysant quand et pourquoi une fidélité élevée du substitut ne parvient pas à préserver les performances prédictives.
+
+### Publications  
+
+**Jackson Eshbaugh.**  
+*Fidelity Isn’t Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth.*  
+arXiv preprint [arXiv:2506.12176](https://arxiv.org/abs/2506.12176), June 2025.  
+📄 [PDF](https://arxiv.org/pdf/2506.12176) 🔗 [arXiv](https://arxiv.org/abs/2506.12176) 💻 [Code](https://github.com/jacksoneshbaugh/lambda-linearity-score)
 
 ## Détection d'idiomes français grâce aux techniques de traduction automatique neuronale
 
