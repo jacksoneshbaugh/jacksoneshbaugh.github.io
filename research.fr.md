@@ -27,7 +27,7 @@ langage naturel (TALN) multilingues ?_
 
 <p style="margin-top: 1.5rem; font-size: 1rem;">
 Vous pouvez consulter un résumé de mes projets de recherche et de mes publications scientifiques sur mon
-<img alt="ORCID iD" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
+<img alt="ORCID iD" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" 
 width="16" height="16" style="vertical-align: text-bottom; margin-left: 4px;" />
 <a href="https://orcid.org/0009-0009-1806-2166" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">
 profil ORCID</a>.
@@ -35,20 +35,48 @@ profil ORCID</a>.
 
 # Projets en cours
 
+## Recommandations de rénovations énergétiques pour les quartiers grâce à l'apprentissage automatique
+
+*juin 2025 — Aujourd'hui*
+
+Une gestion raisonnée des ressources est essentielle, notamment en matière d'énergie des bâtiments. De nombreux
+bâtiments sont bien moins performants énergétiquement qu'ils ne pourraient l'être, ce qui entraîne une consommation et
+des coûts énergétiques excessifs. Si des outils de modélisation comme
+EnergyPlus&trade; et les modèles énergétiques des bâtiments urbains (UBEM) permettent de simuler la consommation
+énergétique des bâtiments, il ne s'agit que de simulations. Notre projet vise à aller plus loin: utiliser les résultats
+de simulation et des données supplémentaires comme entrées pour alimenter des réseaux de neurones qui génèrent des
+recommandations de rénovation à l'échelle du quartier.
+
+_Remarque_: EnergyPlus est une marque déposée du Département de l'Énergie des États-Unis.
+
+**En colaboration avec** Professeur [Jorge Silveyra](https://compsci.lafayette.edu/people/jorge-silveyra/) (Lafayette
+College)
+and [Dr. Chetan Tiwari](https://cas.gsu.edu/profile/chetan-tiwari/) (Georgia State University)
+
 ## Interprétation des réseaux de neurones de régression avec des substituts linéaires
 
 **avril 2025–Aujourd'hui**
 
-Dans ce projet, j'évalue la fiabilité des substituts linéaires pour l'interprétation des réseaux de neurones. À l'aide d'une métrique appelée score lambda, je mesure la capacité des modèles linéaires à approximer les prédictions et les représentations des réseaux entraînés. Si les substituts atteignent souvent une forte corrélation, je montre que cela n'implique pas une approximation fidèle ; en fait, la variance inexpliquée restante peut correspondre à la logique de décision réelle du réseau. Cela suggère que les substituts linéaires simples peuvent être trompeurs, en particulier lorsque des comportements non linéaires clés se situent dans des régions à faible variance de l'espace d'entrée.
+Dans ce projet, j'évalue la fiabilité des substituts linéaires pour l'interprétation des réseaux de neurones. À l'aide
+d'une métrique appelée score lambda, je mesure la capacité des modèles linéaires à approximer les prédictions et les
+représentations des réseaux entraînés. Si les substituts atteignent souvent une forte corrélation, je montre que cela
+n'implique pas une approximation fidèle ; en fait, la variance inexpliquée restante peut correspondre à la logique de
+décision réelle du réseau. Cela suggère que les substituts linéaires simples peuvent être trompeurs, en particulier
+lorsque des comportements non linéaires clés se situent dans des régions à faible variance de l'espace d'entrée.
 
-À l'avenir, je m'intéresse au développement d'un cadre connexe pour les tâches de classification afin de déterminer si le décalage entre fidélité et précision observé en régression se produit également dans les contextes de classification. Je cherche également à caractériser plus précisément l'écart fidélité-précision en étudiant la relation entre λ(f) et le R² entre le substitut et la vérité terrain, en analysant quand et pourquoi une fidélité élevée du substitut ne parvient pas à préserver les performances prédictives.
+À l'avenir, je m'intéresse au développement d'un cadre connexe pour les tâches de classification afin de déterminer si
+le décalage entre fidélité et précision observé en régression se produit également dans les contextes de classification.
+Je cherche également à caractériser plus précisément l'écart fidélité-précision en étudiant la relation entre λ(f) et le
+R² entre le substitut et la vérité terrain, en analysant quand et pourquoi une fidélité élevée du substitut ne parvient
+pas à préserver les performances prédictives.
 
-### Publications  
+### Publications
 
 **Jackson Eshbaugh.**  
 *Fidelity Isn’t Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth.*  
 arXiv preprint [arXiv:2506.12176](https://arxiv.org/abs/2506.12176), June 2025.  
-📄 [PDF](https://arxiv.org/pdf/2506.12176) 🔗 [arXiv](https://arxiv.org/abs/2506.12176) 💻 [Code](https://github.com/jacksoneshbaugh/lambda-linearity-score)
+📄 [PDF](https://arxiv.org/pdf/2506.12176)🔗 [arXiv](https://arxiv.org/abs/2506.12176)
+💻 [Code](https://github.com/jacksoneshbaugh/lambda-linearity-score)
 
 ## Détection d'idiomes français grâce aux techniques de traduction automatique neuronale
 
@@ -58,20 +86,6 @@ Les expressions idiomatiques restent un défi majeur en traduction automatique n
 erreurs dans les systèmes statistiques et modernes de NMT. ​​Dans ce projet, j'adapte des techniques efficaces pour
 identifier les idiomes dans les corpus anglais et les applique aux données françaises. Ce travail, encore à ses débuts,
 constituera mon mémoire de fin d'études en français et en informatique.
-
-## Améliorer la sécurité énergétique grâce aux réseaux neuronaux et aux arbres de décision
-
-**janvier 2025–Aujourd'hui**
-
-La précarité énergétique est un réel problème aux États-Unis. Le gouvernement fédéral verse des fonds aux États pour
-lutter contre ce problème. Cependant, les moyens de mobiliser ces fonds sont multiples, ce qui entraîne une répartition
-inefficace. Nos travaux visent à simplifier cette allocation en intégrant les réseaux de neurones et les réseaux de
-neurones profonds aux modèles énergétiques des bâtiments urbains (UBEM). Les résultats de cette combinaison de modèles
-permettront aux décideurs politiques de visualiser les schémas de consommation énergétique, de comparer les stratégies
-d'allocation des ressources et de simuler l'impact de différentes approches d'atténuation. Ce projet en est à ses
-débuts.
-
-**En collaboration avec** le professeur Jorge Silveyra (Lafayette College)
 
 # Projets à venir
 

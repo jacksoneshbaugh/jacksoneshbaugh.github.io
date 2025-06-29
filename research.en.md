@@ -35,20 +35,45 @@ You can view a summary of my research projects and scholarly output on my
 
 # Current Projects
 
+## Recommending Energy Efficiency Retrofits for Neighborhoods Using Machine Learning
+
+*June 2025—Present*
+
+Wise stewardship of resources is essential, particularly in the realm of building energy. Many buildings are far less
+energy efficient than they could be, resulting in excessive energy use and costs. While modeling tools like
+EnergyPlus&trade; and urban building energy models (UBEMs) can simulate building energy consumption, these remain only
+simulations. Our project seeks to go further: using simulation outputs alongside additional data as inputs to neural
+networks that generate retrofit recommendations at the neighborhood level.
+
+_Note_: EnergyPlus is a trademark of the United States Department of Energy.
+
+**In collaboration with** Professor [Jorge Silveyra](https://compsci.lafayette.edu/people/jorge-silveyra/) (Lafayette
+College)
+and [Dr. Chetan Tiwari](https://cas.gsu.edu/profile/chetan-tiwari/) (Georgia State University)
+
 ## Interpreting Regression Neural Networks with Linear Surrogates
 
 **April 2025–Present**
 
-In this project, I evaluate the reliability of linear surrogates for interpreting neural networks. Using a metric I call the lambda score, I measure how well linear models can approximate the predictions and representations of trained networks. While surrogates often achieve high correlation, I show that this does not imply faithful approximation—and in fact, the remaining unexplained variance may correspond to the network’s actual decision logic. This suggests that simple linear proxies can be misleading, especially when key nonlinear behaviors reside in low-variance regions of the input space.
+In this project, I evaluate the reliability of linear surrogates for interpreting neural networks. Using a metric I call
+the lambda score, I measure how well linear models can approximate the predictions and representations of trained
+networks. While surrogates often achieve high correlation, I show that this does not imply faithful approximation—and in
+fact, the remaining unexplained variance may correspond to the network’s actual decision logic. This suggests that
+simple linear proxies can be misleading, especially when key nonlinear behaviors reside in low-variance regions of the
+input space.
 
-Looking ahead, I’m interested in developing a related framework for classification tasks to explore whether the disconnect between fidelity and accuracy observed in regression also arises in classification settings. I also aim to characterize the fidelity–accuracy gap more precisely by studying the relationship between λ(f) and the R² between the surrogate and the ground truth—analyzing when and why high surrogate fidelity fails to preserve predictive performance.
+Looking ahead, I’m interested in developing a related framework for classification tasks to explore whether the
+disconnect between fidelity and accuracy observed in regression also arises in classification settings. I also aim to
+characterize the fidelity–accuracy gap more precisely by studying the relationship between λ(f) and the R² between the
+surrogate and the ground truth—analyzing when and why high surrogate fidelity fails to preserve predictive performance.
 
-### Publications  
+### Publications
+
 **Jackson Eshbaugh.**  
 *Fidelity Isn’t Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth.*  
 arXiv preprint [arXiv:2506.12176](https://arxiv.org/abs/2506.12176), June 2025.  
-📄 [PDF](https://arxiv.org/pdf/2506.12176) 🔗 [arXiv](https://arxiv.org/abs/2506.12176) 💻 [Code](https://github.com/jacksoneshbaugh/lambda-linearity-score)
-
+📄 [PDF](https://arxiv.org/pdf/2506.12176)🔗 [arXiv](https://arxiv.org/abs/2506.12176)
+💻 [Code](https://github.com/jacksoneshbaugh/lambda-linearity-score)
 
 ## Detecting French Idioms Using Neural Machine Translation Techniques
 
@@ -58,19 +83,6 @@ Idiomatic expressions remain a major challenge in neural machine translation (NM
 statistical and modern NMT systems. In this project, I’m adapting techniques that have been successful in identifying
 idioms in English corpora and applying them to French data. This work, currently in its early stages, will become my
 combined honors thesis in French and Computer Science.
-
-## Improving Energy Security with Neural Networks and Decision Trees
-
-**January 2025—Present**
-
-Energy poverty is a real concern in the United States. In fact, the federal government disburses money to states to help
-combat this issue. However, there are multiple ways this money can be mobilized, and as a result money is allocated
-inefficiently. Our work aims to make this allocation simple, integrating NNs and DTs with urban building energy models (
-UBEMs). The results from this combination of models will allow policymakers to visualize energy consumption patterns,
-compare resource allocation strategies, and simulate the impact of various weathering approaches. This project is in a
-very early stage.
-
-**In collaboration with** Professor Jorge Silveyra (Lafayette College)
 
 # Upcoming Projects
 
