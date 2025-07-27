@@ -27,14 +27,12 @@ rendre les réseaux neuronaux plus transparents ?_
 et _Comment la structure linguistique et la sémantique interagissent-elles dans les modèles de traitement automatique du
 langage naturel (TALN) multilingues ?_
 
-<p style="margin-top: 1.5rem; font-size: 1rem;">
 **Vous cherchez une liste de toutes mes publications?**
 Vous pouvez consulter un résumé de mes projets de recherche et de mes publications [ici](/publications) ou sur mon
-<img alt="ORCID iD" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" 
+<img alt="ORCID iD" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
 width="16" height="16" style="vertical-align: text-bottom; margin-left: 4px;" />
 <a href="https://orcid.org/0009-0009-1806-2166" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">
 profil ORCID</a>.
-</p>
 
 # Projets en cours
 

@@ -25,14 +25,12 @@ I'm broadly interested in machine learning interpretability, computational lingu
 of artificial intelligence. I'm especially drawn to questions like: _How do we make neural networks more transparent?_
 and _How do linguistic structure and semantics interact in multilingual NLP models?_
 
-<p style="margin-top: 1.5rem; font-size: 1rem;">
 **Looking for a list of all my publications?**
 You can view a summary of my research projects and scholarly output [here](/publications) or on my
 <img alt="ORCID iD" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
 width="16" height="16" style="vertical-align: text-bottom; margin-left: 4px;" />
 <a href="https://orcid.org/0009-0009-1806-2166" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">
 ORCID profile</a>.
-</p>
 
 # Current Projects
 
