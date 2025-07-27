@@ -7,9 +7,9 @@ lang: "fr"
 katex: true
 ---
 
-*Dernière mise à jour : mai 2025*
+*Dernière mise à jour : julliet 2025*
 
-*Version PDF à venir*
+(uploads/Jackson%20Eshbaugh%20CV.pdf)[Version PDF]
 
 # Jackson Eshbaugh
 
@@ -36,18 +36,18 @@ Licence en Langue Française (prévue en 2027)
 
 **Assistant de recherche, Département d’informatique**
 
-*Lafayette College · Janvier 2025 — Présent*
+*Lafayette College · janvier 2025 — Présent*
 
 * Recherche en interprétabilité des modèles d’apprentissage automatique et équité énergétique
 * Collaboration avec le Professeur Jorge Silveyra
 * Projet : *Amélioration de la sécurité énergétique par réseaux de neurones et arbres de décision*
   → [Voir détails](/research)
 
-### Mémoire de licence
+### Thèse de licence
 
 **Départements d’informatique et d'études de la langue et de la littérature**
 
-*Août 2025 — Présent*
+*août 2025 — Présent*
 
 * Développement de méthodes de détection des expressions idiomatiques en français via la traduction automatique
   neuronale
@@ -62,7 +62,7 @@ Licence en Langue Française (prévue en 2027)
 
 **Département d’informatique**
 
-*Automne 2024, Printemps 2025, Automne 2025*
+*automne 2024, printemps 2025, automne 2025*
 
 * Assistance à l’enseignement des cours d’introduction à l’informatique
 * Conception et animation de séances de révision et de laboratoires de débogage
@@ -83,11 +83,9 @@ Licence en Langue Française (prévue en 2027)
 
 # 🛠️ Compétences techniques
 
-**Langages** : Python, Java, JavaScript, SML
+**Langages** : Python, Java, JavaScript, C, ML
 
-**Frameworks ML** : TensorFlow, scikit-learn
-
-**Développement web** : Flask, NodeJS, SQL, Jekyll
+**Frameworks ML** : PyTorch, TensorFlow, scikit-learn
 
 **Outils** : Git, VS Code, IDE JetBrains, \\( \LaTeX \\)
 

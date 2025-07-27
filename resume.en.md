@@ -7,8 +7,9 @@ katex: true
 lang: "en"
 ---
 
-_Last updated: May 2025_  
-_PDF version coming soon_
+_Last updated: July 2025_
+
+(uploads/Jackson%20Eshbaugh%2CV.pdf)[PDF Version]
 
 # Jackson Eshbaugh
 
@@ -75,9 +76,8 @@ A.B. in French Language (expected 2027)
 
 # 🛠️ Technical Skills
 
-**Languages**: Python, Java, JavaScript, SML  
-**ML Frameworks**: TensorFlow, scikit-learn  
-**Web Dev**: Flask, NodeJS, SQL, Jekyll  
+**Languages**: Python, Java, JavaScript, C, ML  
+**ML Frameworks**: PyTorch, TensorFlow, scikit-learn
 **Tools**: Git, VS Code, JetBrains IDEs, \\( \LaTeX \\)
 
 ---
