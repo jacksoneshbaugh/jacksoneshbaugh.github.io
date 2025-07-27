@@ -19,7 +19,7 @@ lang: "en"
   <span style="font-size: 0.95rem;">(Psalm 111:2,4, NIV)</span>
 </blockquote>
 
-**Looking for a list of all my publications?** Check out my (publications)[publications] page.
+**Looking for a list of all my publications?** Check out my [publications](publications) page.
 
 # Research Interests
 

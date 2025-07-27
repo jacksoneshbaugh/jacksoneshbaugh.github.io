@@ -9,7 +9,7 @@ lang: "en"
 
 _Last updated: July 2025_
 
-(uploads/Jackson%20Eshbaugh%2CV.pdf)[PDF Version]
+[PDF Version](uploads/Jackson%20Eshbaugh%2CV.pdf)
 
 # Jackson Eshbaugh
 

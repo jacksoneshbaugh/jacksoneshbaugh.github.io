@@ -9,7 +9,7 @@ katex: true
 
 *Dernière mise à jour : julliet 2025*
 
-(uploads/Jackson%20Eshbaugh%20CV.pdf)[Version PDF]
+[Version PDF](uploads/Jackson%20Eshbaugh%20CV.pdf)
 
 # Jackson Eshbaugh
 

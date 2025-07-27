@@ -10,7 +10,7 @@ lang: "fr"
 Je crois que l'une des plus grandes joies de la vie est de découvrir et de construire de nouvelles choses, et de contribuer, même modestement, au débat scientifique.
 </div>
 
-**Vous cherchez une liste de toutes mes publications?** Consultez ma page (publications)[publications].
+**Vous cherchez une liste de toutes mes publications?** Consultez ma page [publications](publications).
 
 <blockquote style="font-size: 1.1rem; margin-top: 1rem; font-style: italic;">
   Les actions du Seigneur sont extraordinaires, tous ceux qui les aiment réfléchissent sur elles ...<br>
