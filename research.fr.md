@@ -75,6 +75,7 @@ pas à préserver les performances prédictives.
 
 **Jackson Eshbaugh.**  
 *Fidelity Isn’t Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth.*  
+*Submitted to NeurIPS 2025 (Mechanistic Interpretability Workshop).*  
 arXiv preprint [arXiv:2506.12176](https://arxiv.org/abs/2506.12176), June 2025.  
 📄 [PDF](https://arxiv.org/pdf/2506.12176)🔗 [arXiv](https://arxiv.org/abs/2506.12176)
 💻 [Code](https://github.com/jacksoneshbaugh/lambda-linearity-score)

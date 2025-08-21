@@ -20,6 +20,7 @@ mon (https://www.semanticscholar.org/author/Jackson-Eshbaugh/2367196142) [Semant
 ## 2025
 
 **Eshbaugh, J.** (2025). Fidelity Isn't Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth.
+*Submitted to NeurIPS 2025 (Mechanistic Interpretability Workshop).*  
 ArXiv,
 abs/2506.12176.
 📄 [PDF](https://arxiv.org/pdf/2506.12176)🔗 [arXiv](https://arxiv.org/abs/2506.12176)
