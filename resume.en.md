@@ -7,7 +7,7 @@ katex: true
 lang: "en"
 ---
 
-_Last updated: July 2025_
+_Last updated: August 2025_
 
 [PDF Version](/uploads/Jackson%20Eshbaugh%20CV.pdf)
 

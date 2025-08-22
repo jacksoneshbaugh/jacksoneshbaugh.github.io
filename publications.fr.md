@@ -14,8 +14,8 @@ Vous pouvez également trouver mes publications sur mon <img alt="ORCID iD"
 src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
 width="16" height="16" style="vertical-align: text-bottom; margin-left: 4px;" />
 <a href="https://orcid.org/0009-0009-1806-2166" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">
-ORCID</a>, mon (https://scholar.google.com/citations?user=wicP8KoAAAAJ&hl=fr&oi=ao)[Google Scholar], ou
-mon (https://www.semanticscholar.org/author/Jackson-Eshbaugh/2367196142) [Semantic Scholar].
+ORCID</a>, mon <a href="https://scholar.google.com/citations?user=wicP8KoAAAAJ&hl=fr&oi=ao">Google Scholar</a>, ou
+mon <a href="https://www.semanticscholar.org/author/Jackson-Eshbaugh/2367196142">Semantic Scholar</a>.
 
 ## 2025
 
