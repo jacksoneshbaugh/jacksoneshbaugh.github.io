@@ -36,7 +36,7 @@ ORCID profile</a>.
 
 ## Recommending Energy Efficiency Retrofits for Neighborhoods Using Machine Learning
 
-*June 2025—Present*
+**June 2025—Present**
 
 Wise stewardship of resources is essential, particularly in the realm of building energy. Many buildings are far less
 energy efficient than they could be, resulting in excessive energy use and costs. While modeling tools like

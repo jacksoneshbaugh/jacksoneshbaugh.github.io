@@ -38,7 +38,7 @@ profil ORCID</a>.
 
 ## Recommandations de rénovations énergétiques pour les quartiers grâce à l'apprentissage automatique
 
-*juin 2025 — Aujourd'hui*
+**juin 2025 — Aujourd'hui**
 
 Une gestion raisonnée des ressources est essentielle, notamment en matière d'énergie des bâtiments. De nombreux
 bâtiments sont bien moins performants énergétiquement qu'ils ne pourraient l'être, ce qui entraîne une consommation et
