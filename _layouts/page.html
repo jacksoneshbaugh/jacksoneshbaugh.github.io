@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header.html %}
+
+<main class="container">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    {% comment %} Related Pages {% endcomment %}
+    {% if page.related %}
+    <hr/>
+    <section class="quick-links">
+        <h2>Related Pages</h2>
+        <div class="ql-grid">
+            {% for r in page.related %}
+            <a class="card" href="{{ r.url | relative_url }}">
+                <div class="card-title">{{ r.title }}</div>
+                <p>{{ r.description }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+</main>
+{% include footer.html %}
+</body>
+</html>

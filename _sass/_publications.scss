@@ -1,0 +1,141 @@
+
+:root {
+  --bg: #ffffff;
+  --card: #ffffff;
+  --card-border: #e5e7eb; /* gray-200 */
+  --text: #111827; /* gray-900 */
+  --muted: #6b7280; /* gray-500 */
+  --muted-2: #374151; /* gray-700 */
+  --shadow: 0 1px 2px rgba(0, 0, 0, .04);
+  --accent: #1f6feb; /* accessible blue for links */
+  --accent-hover: #124ec0;
+
+  /* badge backgrounds */
+  --badge: #eef2ff; /* indigo-50 */
+  --badge-border: #c7d2fe; /* indigo-200 */
+  --badge-preprint: #dbeafe; /* blue-100 */
+  --badge-preprint-border: #bfdbfe;
+  --badge-submitted: #fef3c7; /* amber-100 */
+  --badge-submitted-border: #fde68a;
+  --badge-journal: #dcfce7; /* green-100 */
+  --badge-journal-border: #bbf7d0;
+  --badge-conference: #fae8ff; /* fuchsia-100 */
+  --badge-conference-border: #f5d0fe;
+}
+
+/* ====== Cards ====== */
+.pub-card, .talk-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 12px 0;
+  box-shadow: var(--shadow);
+}
+
+.pub-title, .talk-title {
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 2px 0 6px;
+  color: var(--text);
+}
+
+.pub-title a, .talk-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.pub-title a:hover, .talk-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors, .pub-venue, .talk-venue, .talk-authors {
+  color: var(--muted-2);
+  font-size: 0.95rem;
+}
+
+.pub-meta, .talk-meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+.pub-links, .talk-links {
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+.pub-links a, .talk-links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.pub-links a:hover, .talk-links a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* ====== Badges ====== */
+.badge {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 4px 7px;
+  border-radius: 999px;
+  margin-right: 8px;
+  color: var(--text);
+  background: var(--badge);
+  border: 1px solid var(--badge-border);
+}
+
+.badge-preprint {
+  background: var(--badge-preprint);
+  border-color: var(--badge-preprint-border);
+}
+
+.badge-submitted {
+  background: var(--badge-submitted);
+  border-color: var(--badge-submitted-border);
+}
+
+.badge-journal {
+  background: var(--badge-journal);
+  border-color: var(--badge-journal-border);
+}
+
+.badge-conference {
+  background: var(--badge-conference);
+  border-color: var(--badge-conference-border);
+}
+
+/* ====== Small-screen niceties ====== */
+@media (max-width: 640px) {
+  .pub-card, .talk-card {
+    padding: 12px 14px;
+  }
+  .pub-title, .talk-title {
+    font-size: 1.02rem;
+  }
+}
+
+/* ====== Reduced motion ====== */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ====== Print (bonus) ====== */
+@media print {
+  .pub-card, .talk-card {
+    box-shadow: none;
+    border-color: #cbd5e1; /* slightly darker border for print */
+    page-break-inside: avoid;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: .9em;
+  }
+}

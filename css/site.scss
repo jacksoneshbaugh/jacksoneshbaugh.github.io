@@ -10,7 +10,22 @@
 @import "masonry";
 @import "timeline";
 @import "blog";
+@import "research";
+@import "teaching";
+@import "publications";
 
+/* Global page container spacing */
+.container {
+  max-width: 980px; /* tweak if you want wider */
+  margin: 0 auto;
+  padding: 24px 20px; /* adds breathing room on small screens */
+}
+
+@media (min-width: 900px) {
+  .container {
+    padding: 32px 28px;
+  }
+}
 
 /* General */
 .center {
@@ -38,4 +53,11 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+  opacity: 0.6;
 }

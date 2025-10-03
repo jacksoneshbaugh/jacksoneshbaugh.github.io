@@ -1,0 +1,174 @@
+.lede {
+  font-size: 1.15rem;
+  font-weight: 300;
+  margin: 0 0 .75rem;
+}
+
+.verse {
+  font-style: italic;
+  color: #374151;
+  margin: .5rem 0 1rem;
+}
+
+.verse .cite {
+  font-size: .9rem;
+  color: #6b7280;
+}
+
+.bullets {
+  margin: .5rem 0 1rem;
+}
+
+.bullets li {
+  margin: .2rem 0;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 14px;
+}
+
+.filter-input {
+  flex: 1 1 220px;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.filter-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 6px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  background: #f9fafb;
+  cursor: pointer;
+}
+
+.tag.active {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+
+.project-grid {
+  display: grid;
+  gap: 14px;
+  align-items: center;
+}
+
+@media (min-width: 760px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1400px) {
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.project-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+}
+
+.card-head {
+  display: block;
+}
+
+.card-title {
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.card-summary {
+  margin: .35rem 0 .5rem;
+}
+
+.card-collab {
+  margin: .25rem 0 .5rem;
+  color: #374151;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.card-date {
+  align-self: flex-start;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #6b7280;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-date::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #9ca3af;
+}
+
+/* optional: color variants */
+.status-active::before {
+  background: #10b981;
+}
+
+/* green */
+.status-in-review::before {
+  background: #f59e0b;
+}
+
+/* amber */
+.status-archived::before {
+  background: #9ca3af;
+}
+
+/* gray */
+
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: .5rem 0 .25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.chip {
+  display: inline-block;
+  font-size: .78rem;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  color: #1f2937;
+  margin-right: 6px;
+}
+
+.card-tags {
+  display: flex;
+  justify-content: center;
+}

@@ -1,1 +1,0 @@
-# jacksoneshbaugh.github.io

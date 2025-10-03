@@ -1,0 +1,22 @@
+- id: P1
+  type: preprint        # preprint | submitted | journal | conference | thesis
+  year: 2025
+  title: "Fidelity Isn’t Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth"
+  authors: [ "Eshbaugh, J." ]
+  doi: "https://doi.org/10.48550/arXiv.2506.12176"
+  arxiv: "arXiv:2506.12176"
+  links:
+    - { label: "DOI", url: "https://doi.org/10.48550/arXiv.2506.12176" }
+    - { label: "PDF", url: "https://arxiv.org/pdf/2506.12176" }
+
+- id: S1
+  type: submitted
+  year: 2025
+  title: "A Modular and Multimodal Generative AI Framework for Urban Building Energy Data: Generating Synthetic Homes"
+  authors: [ "Eshbaugh, J.", "Tiwari, C.", "Silveyra, J." ]
+  venue_note: "Submitted to Energy & Buildings"
+  doi: "https://doi.org/10.48550/arXiv.2509.09794"
+  arxiv: "arXiv:2509.09794"
+  links:
+    - { label: "DOI", url: "https://doi.org/10.48550/arXiv.2509.09794" }
+    - { label: "PDF", url: "https://arxiv.org/pdf/2509.09794" }

@@ -1,0 +1,23 @@
+- term: "Fall 2025"
+  course: "CS 104 · Intro to Game Programming"
+  institution: "Lafayette College"
+  instructor: "Christian Lopez-Bencosme"
+  status: active
+  summary: "Returning TA for the intro sequence; focusing on clarity in my instruction."
+  links: [ ]
+
+- term: "Spring 2025"
+  course: "CS 104 · Intro to Game Programming"
+  institution: "Lafayette College"
+  instructor: "Lauren Biernacki"
+  summary: "Led weekly MSG sessions and created targeted practice sets to help students prepare for an exam. Lectured a final exam review session."
+  links:
+    - { label: "Materials (GitHub)", url: "https://github.com/jacksoneshbaugh/CS-104-Spring-2025" }
+
+- term: "Fall 2024"
+  course: "CS 105 · Digital Media Computing"
+  institution: "Lafayette College"
+  instructor: "Justin Smith"
+  summary: "First semester as TA; developed review sheets and demo code for exam review and to practice concepts."
+  links:
+    - { label: "Materials (GitHub)", url: "https://github.com/jacksoneshbaugh/CS-105-MSG-Materials" }

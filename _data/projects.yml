@@ -1,0 +1,36 @@
+- id: retrofit
+  title: "Recommending Energy Retrofits at the Neighborhood Level"
+  dates: "Jun 2025 – present"
+  status: active         # active | in-review | archived
+  summary: >
+    We use EnergyPlus™ simulations and neural networks to recommend energy efficiency
+    retrofits across neighborhoods rather than just individual buildings.
+  tags: [ energy, ml, recommender, sustainability ]
+  collaborators:
+    - { name: "Jorge Silveyra", url: "https://compsci.lafayette.edu/people/jorge-silveyra/" }
+    - { name: "Chetan Tiwari", url: "https://cas.gsu.edu/profile/chetan-tiwari/" }
+  links:
+  related_pub_ids: [ S1 ]
+  related_talk_ids: [ T1 ]
+
+- id: lambda-linear
+  title: "Interpreting Regression Neural Networks with Linear Surrogates"
+  dates: "Apr 2025 – present"
+  status: active
+  summary: >
+    I investigate when linear models fail to faithfully represent neural networks and propose
+    the λ-score as a diagnostic; high surrogate fidelity ≠ accuracy.
+  tags: [ interpretability, theory, regression ]
+  links:
+    - { label: "Code", url: "https://github.com/jacksoneshbaugh/lambda-linearity-score" }
+  related_pub_ids: [ P1 ]
+
+- id: fr-idioms
+  title: "Detecting French Idioms with NMT"
+  dates: "Feb 2025 – present"
+  status: active
+  summary: >
+    Applying back-translation and neural methods to a new French idiom corpus to improve
+    figurative language handling in multilingual MT.
+  tags: [ nlp, multilingual, idioms, translation ]
+  links: [ ]
