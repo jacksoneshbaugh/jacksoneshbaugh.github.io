@@ -13,7 +13,7 @@ related:
     description: A catalog of all of my publications, preprints, talks, and posters.
   - title: Teaching
     url: '/teaching/'
-    description: Learn about the teaching opportunities I've had
+    description: Learn about the teaching opportunities I've had.
 ---
 
 <p class="cv-sub">Jackson Eshbaugh — Computer Science & French, Lafayette College ’27</p>
