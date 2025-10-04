@@ -259,19 +259,211 @@
   text-decoration: none;
 }
 
-.skill-list {
-  list-style-type: none;
+.cv-title {
+  margin: 0 0 4px;
+  font-size: clamp(28px, 4vw, 36px);
+  line-height: 1.15;
 }
 
-.resume-title {
-  margin-bottom: 0;
+.cv-sub {
+  margin: 2px 0 8px;
+  color: #374151;
+  font-weight: 600;
 }
 
-.resume-meta {
-  color: gray;
-  font-size: 1.75em;
+.cv-contact {
+  margin: 0 0 16px;
+  color: #4b5563;
 }
 
+.cv-contact a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #c7d2fe;
+}
+
+.cv-contact a:hover {
+  border-bottom-style: solid;
+}
+
+.cv-toc {
+  margin: 10px 0 18px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.cv-toc h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.cv-toc ol {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.cv-sec {
+  margin: 18px 0;
+}
+
+.cv-sec > h2 {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 0 0 8px;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 4px;
+}
+
+.cv-row {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 10px 18px;
+  align-items: start;
+  margin: 8px 0;
+}
+
+@media (max-width: 840px) {
+  .cv-row {
+    grid-template-columns: 1fr;
+  }
+}
+.cv-left {
+  color: #111827;
+}
+
+.cv-meta {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.cv-right {
+  color: #111827;
+}
+
+.cv-bullets {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.cv-bullets li {
+  margin: 2px 0;
+}
+
+.cv-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.pubs, .talks {
+  margin: 0;
+  padding-left: 1.6rem;
+  counter-reset: item;
+}
+
+.pubs li, .talks li {
+  list-style: decimal;
+  margin: 6px 0;
+  padding-left: 0.4rem;
+  text-indent: 0;
+}
+
+.pub-title {
+  font-style: italic;
+}
+
+.pub-venue {
+  font-style: italic;
+}
+
+.pub-links a {
+  text-decoration: none;
+  border-bottom: 1px dotted #c7d2fe;
+}
+
+.pub-links a:hover {
+  border-bottom-style: solid;
+}
+
+.talk-related {
+  color: #4b5563;
+}
+
+.cv-break-avoid {
+  break-inside: avoid;
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+  body {
+    background: #fff !important;
+  }
+  a {
+    color: #000 !important;
+    text-decoration: none;
+  }
+  .site-header, .site-footer, nav, .quick-links, .hero, .cta {
+    display: none !important;
+  }
+  @page {
+    margin: 18mm 16mm;
+  }
+  .print-only {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 0;
+    font-size: 10pt;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+  }
+  body {
+    padding-top: 24pt;
+  }
+  .cv-title {
+    font-size: 20pt;
+    margin-top: 2pt;
+  }
+  .cv-sub {
+    font-size: 11pt;
+    margin-bottom: 6pt;
+  }
+  .cv-contact {
+    font-size: 10pt;
+    margin-bottom: 8pt;
+  }
+  .cv-sec {
+    margin: 10pt 0;
+  }
+  .cv-sec > h2 {
+    font-size: 10pt;
+    border-bottom: none;
+    margin-bottom: 4pt;
+  }
+  .cv-row {
+    grid-template-columns: 180pt 1fr;
+    gap: 4pt 10pt;
+  }
+  .cv-bullets {
+    padding-left: 14pt;
+  }
+  p, li {
+    orphans: 2;
+    widows: 2;
+  }
+  .page-break {
+    break-before: page;
+  }
+}
 /* Box-sizing reset: //w3bits.com/?p=3225 */
 html {
   box-sizing: border-box;
@@ -315,70 +507,6 @@ html {
     column-count: 2;
   }
 }
-.timeline {
-  position: relative;
-  margin: 0 auto;
-  padding: 2em 0;
-}
-
-.timeline-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-  position: relative;
-  padding: 1em 1em 1em 1.5em;
-}
-
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: lightgray;
-  top: 0;
-}
-
-.timeline-item:first-child::before {
-  top: 50%; /* Start the line from the middle for the first item */
-  height: 50%; /* Only draw the bottom half for the first item */
-}
-
-.timeline-item:last-child::before {
-  height: 50%; /* Only draw the top half for the last item */
-  top: 0; /* Adjust to ensure it connects properly with the previous line */
-}
-
-.timeline-date {
-  font-size: 1em;
-  color: gray;
-}
-
-.timeline-dot::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 10px; /* Half the size of the dot */
-  height: 10px; /* Half the size of the dot */
-  background: lightgray;
-  border-radius: 50%; /* Make it a circle */
-  transform: translate(-40%, -50%); /* Center it vertically and horizontally */
-}
-
-.timeline-contents {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.timeline-title {
-  font-size: 1.5em;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
 .blog-post {
   margin: 0 auto;
   padding: 1em;

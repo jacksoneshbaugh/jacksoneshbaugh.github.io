@@ -43,8 +43,8 @@ description: "Jackson Eshbaugh — undergraduate researcher in ML interpretabili
         <div class="card-title">Teaching</div>
         <p>Learn about the teaching opportunities I've had.</p>
     </a>
-    <a class="card" href="{{ '/resume/' | relative_url }}">
-      <div class="card-title">Résumé</div>
+    <a class="card" href="{{ '/cv/' | relative_url }}">
+      <div class="card-title">CV</div>
       <p>My academic CV.</p>
     </a>
     <a class="card" href="{{ '/contact/' | relative_url }}">

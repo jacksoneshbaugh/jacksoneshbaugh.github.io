@@ -1,6 +1,7 @@
 title: Jackson Eshbaugh
 email: eshbaugj@lafayette.edu
-description: "Jackson Eshbaugh is a computer science and French student at Lafayette College. His research explores machine learning interpretability and multilingual NLP, with a focus on understanding language through computational methods."
+description:
+  en: "Jackson Eshbaugh is a computer science and French student at Lafayette College. His research explores machine learning interpretability and multilingual NLP, with a focus on understanding language through computational methods."
 baseurl: ""
 url: "https://jacksoneshbaugh.github.io"
 twitter_username: jacksoneshbaugh
@@ -15,7 +16,7 @@ header_pages:
   - about.md
   - research.md
   - teaching.md
-  - resume.md
+  - cv.md
   - contact.md
 
 minima:
