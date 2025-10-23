@@ -4,7 +4,17 @@
   city: "Easton, PA"
   venue: "Lafayette College Bicentennial Weekend Poster Session"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
-  authors: [ "Eshbaugh, J.", "Tiwari, C.", "Silveyra, J." ]
+  authors: [ "Eshbaugh, J." ]
   publication: S1
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-09-27-2025.pdf" }
+- id: T2
+  kind: poster         # poster | talk | invited
+  date: 2025-10-16
+  city: "Lancaster, PA"
+  venue: "CyberAccelerate Poster Session at KINBERCON 2025"
+  title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
+  authors: [ "Eshbaugh, J." ]
+  publication: S1
+  links:
+    - { label: "Poster", url: "/uploads/posters/synthetic-homes-10-16-2025.pdf" }

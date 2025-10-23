@@ -12,7 +12,7 @@ page_id: teaching
     <span class="cite">(Proverbs 4:7, NIV)</span>
   </blockquote>
   <p class="blurb">
-    I’ve served as a Teaching Assistant and MSG leader, focusing on clarity, confidence, and curiosity in computer science.
+    I’ve served as a Teaching Assistant and MSG leader, focusing on clarity, confidence, and curiosity in computer science. My role as a TA involves my assistance in class, and my role as an MSG Leader involves holding two two-hour sessions where students can attend and work on lab assignments or homework for the class, with my assistance. 
   </p>
 </div>
 
