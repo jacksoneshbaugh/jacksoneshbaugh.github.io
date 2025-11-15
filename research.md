@@ -23,8 +23,8 @@ related:
 ## Research Interests
 
 <ul class="bullets">
+  <li><strong>Computational Linguistics</strong></li>
   <li><strong>Machine Learning Interpretability</strong></li>
-  <li><strong>Computational Linguistics & Multilingual NLP</strong></li>
   <li><strong>Theoretical Foundations of AI</strong></li>
 </ul>
 
