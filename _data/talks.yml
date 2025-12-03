@@ -18,3 +18,13 @@
   publication: S1
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-10-16-2025.pdf" }
+- id: T3
+  kind: poster         # poster | talk | invited
+  date: 2025-12-01
+  city: "Easton, PA"
+  venue: "Lafayette College Excel Scholars Poster Session"
+  title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
+  authors: [ "Eshbaugh, J." ]
+  publication: S1
+  links:
+    - { label: "Poster", url: "/uploads/posters/synthetic-homes-12-01-2025.pdf" }
