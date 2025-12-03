@@ -30,99 +30,90 @@ related:
 
 ---
 
-## Projects
+# Projects
 
-<!-- Filter toolbar -->
-<div class="filters" data-js="filters">
-  <input id="q" class="filter-input" type="search" placeholder="Search projects…" aria-label="Search projects"/>
-  <div class="filter-tags">
-    {% assign all_tags = "" | split: "" %}
-    {% for p in site.data.projects %}
-      {% assign all_tags = all_tags | concat: p.tags %}
-    {% endfor %}
-    {% assign uniq = all_tags | uniq | sort %}
-    {% for t in uniq %}
-      <button class="tag" data-tag="{{ t }}">{{ t }}</button>
-    {% endfor %}
-  </div>
-  <label class="only-active">
-    <input type="checkbox" id="only-active" /> Show active only
-  </label>
-</div>
-
-<!-- Projects grid -->
-<div id="projects" class="project-grid">
+<!-- Projects list -->
+<div id="projects" class="project-list">
 {% assign projects = site.data.projects %}
 {% for p in projects %}
-  <article class="project-card"
+  <section class="project-item"
            data-title="{{ p.title | downcase }}"
            data-tags="{{ p.tags | join: ' ' | downcase }}"
            data-status="{{ p.status | downcase }}">
-    <span class="card-date status-{{ p.status | downcase }}">{{ p.dates }}</span>
-    <header class="card-head">
-      <h3 class="card-title">{{ p.title }}</h3>
-    </header>
-
-    <p class="card-summary">{{ p.summary }}</p>
+    <div class="meta-row">
+      <span class="status status-{{ p.status | downcase }}">{{ p.status }}</span>
+      <span class="dates">{{ p.dates }}</span>
+    </div>
+    <h3 class="project-title">{{ p.title }}</h3>
+    <p class="project-summary">{{ p.summary }}</p>
 
     {% if p.collaborators %}
-    <p class="card-collab">
+    <p class="project-collab">
       <strong>Collaborators:</strong>
       {% for c in p.collaborators %}
         <a href="{{ c.url }}">{{ c.name }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </p>
     {% endif %}
+    
+    {% if p.advisors %}
+    <p class="project-collab">
+        <strong>Advisors:</strong>
+        {% for c in p.advisors %}
+            <a href="{{ c.url }}">{{ c.name }}</a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+    </p>
+    {% endif %}
 
     {% if p.related_pub_ids and site.data.pubs %}
-      <div class="related-pubs">
-        <strong>Related publications:</strong>
-        <ul>
+      <div class="related-section">
+        <h4>Related publications</h4>
+        <div class="card-row">
           {% for id in p.related_pub_ids %}
             {% assign pub = site.data.pubs | where: "id", id | first %}
             {% if pub %}
-              <li>
-                <a href="{{ pub.doi | default: pub.arxiv }}">{{ pub.title }}</a>
-                <span class="pub-meta">({{ pub.year }})</span>
-              </li>
+              <article class="mini-card pub-card">
+                <a class="mini-title" href="{{ pub.doi | default: pub.arxiv }}">{{ pub.title }}</a>
+                <span class="mini-meta">{{ pub.year }}</span>
+              </article>
             {% endif %}
           {% endfor %}
-        </ul>
+        </div>
       </div>
     {% endif %}
 
     {% if p.related_talk_ids and site.data.talks %}
-    <div class="related-pubs">
-    <strong>Related posters & talks:</strong>
-    <ul>
-    {% for id in p.related_talk_ids %}
-    {% assign talk = site.data.talks | where: "id", id | first %}
-    {% if talk %}
-    <li>
-    {{ talk.title }}
-    <span class="pub-meta">({{ talk.date | date: "%b %Y" }})</span>
-    </li>
-    {% endif %}
-    {% endfor %}
-    </ul>
+    <div class="related-section">
+      <h4>Related posters & talks</h4>
+      <div class="card-row">
+        {% for id in p.related_talk_ids %}
+          {% assign talk = site.data.talks | where: "id", id | first %}
+          {% if talk %}
+            <article class="mini-card talk-card">
+              <span class="mini-title">{{ talk.title }}</span>
+              <span class="mini-meta">{{ talk.date | date: "%b %Y" }}</span>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
     {% endif %}
 
     {% if p.links %}
-    <div class="card-links">
+    <div class="project-links">
       {% for l in p.links %}
         <a class="btn btn-outline" href="{{ l.url }}">{{ l.label }}</a>
       {% endfor %}
     </div>
     {% endif %}
 
-    <footer class="card-tags">
+    <footer class="project-tags">
       {% for t in p.tags %}
         <span class="chip" data-tag="{{ t | downcase }}">{{ t }}</span>
       {% endfor %}
     </footer>
 
-  </article>
+  </section>
 {% endfor %}
 </div>
 
@@ -131,7 +122,7 @@ related:
   const $q = document.getElementById('q');
   const $only = document.getElementById('only-active');
   const $tags = Array.from(document.querySelectorAll('.tag'));
-  const $cards = Array.from(document.querySelectorAll('.project-card'));
+  const $items = Array.from(document.querySelectorAll('.project-item'));
   const state = { query:'', tags:new Set(), only:false };
 
   // Read URL params (e.g., /research/?tag=nlp&only=1&q=interpret)
@@ -149,16 +140,16 @@ related:
 
   function apply(){
     const q = state.query.trim().toLowerCase();
-    $cards.forEach(card => {
-      const inTitle = card.dataset.title.includes(q);
-      const inTags = card.dataset.tags.includes(q);
+    $items.forEach(item => {
+      const inTitle = item.dataset.title.includes(q);
+      const inTags = item.dataset.tags.includes(q);
       const matchesText = !q || inTitle || inTags;
 
-      const cardTags = card.dataset.tags.split(/\s+/);
-      const hasAllTags = !state.tags.size || [...state.tags].every(t => cardTags.includes(t));
-      const statusOk = !state.only || card.dataset.status === 'active';
+      const itemTags = item.dataset.tags.split(/\s+/);
+      const hasAllTags = !state.tags.size || [...state.tags].every(t => itemTags.includes(t));
+      const statusOk = !state.only || item.dataset.status === 'active';
       const show = matchesText && hasAllTags && statusOk;
-      card.style.display = show ? '' : 'none';
+      item.style.display = show ? '' : 'none';
     });
 
     // Update URL (shareable filters)

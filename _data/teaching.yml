@@ -1,12 +1,20 @@
-- term: "Fall 2025"
+- term: "S · 2026"
+  course: "CS 105 · Digital Media Computing"
+  institution: "Lafayette College"
+  instructor: "Sofia Serrano"
+  status: active
+  summary: "I am looking forward to assisting students in Dr. Serrano's section this semester."
+  links: [ ]
+
+- term: "F · 2025"
   course: "CS 104 · Intro to Game Programming"
   institution: "Lafayette College"
   instructor: "Christian Lopez-Bencosme"
   status: active
-  summary: "Returning TA for the intro sequence; focusing on clarity in my instruction."
+  summary: "Returning for my third semester of TAing the intro courses, I focused primarily on improving the clarity of my instruction."
   links: [ ]
 
-- term: "Spring 2025"
+- term: "S · 2025"
   course: "CS 104 · Intro to Game Programming"
   institution: "Lafayette College"
   instructor: "Lauren Biernacki"
@@ -14,7 +22,7 @@
   links:
     - { label: "Materials (GitHub)", url: "https://github.com/jacksoneshbaugh/CS-104-Spring-2025" }
 
-- term: "Fall 2024"
+- term: "F · 2024"
   course: "CS 105 · Digital Media Computing"
   institution: "Lafayette College"
   instructor: "Justin Smith"

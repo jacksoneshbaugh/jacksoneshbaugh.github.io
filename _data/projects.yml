@@ -11,7 +11,7 @@
     - { name: "Chetan Tiwari", url: "https://cas.gsu.edu/profile/chetan-tiwari/" }
   links:
   related_pub_ids: [ S1 ]
-  related_talk_ids: [ T1 ]
+  related_talk_ids: [ T1, T2, T3 ]
 
 - id: lambda-linear
   title: "Interpreting Regression Neural Networks with Linear Surrogates"
@@ -26,11 +26,29 @@
   related_pub_ids: [ P1 ]
 
 - id: fr-idioms
-  title: "Detecting French Idioms with NMT"
+  title: "Thesis: Detecting French Idioms"
   dates: "Feb 2025 – present"
+  advisors:
+    - { name: "Sofia Serrano", url: "https://sites.lafayette.edu/serranos/" }
+    - { name: "Maria Hernandez", url: "https://lls.lafayette.edu/people/maria-hernandez/" }
   status: active
   summary: >
-    Applying back-translation and neural methods to a new French idiom corpus to improve
-    figurative language handling in multilingual MT.
-  tags: [ nlp, multilingual, idioms, translation ]
+    Alongside traditional linguistics, I apply back-translation and neural methods to a new French idiom corpus to improve
+    our understanding of how computers and humans process idiomatic language.
+  tags: [ computational, linguistics, nlp, multilingual, idioms ]
   links: [ ]
+
+- id: grammar-fr-idioms
+  title: "Toward a Grammar for French Idioms"
+  dates: "Jan. 2025 – present"
+  advisors:
+    - { name: "Maria Hernandez", url: "https://lls.lafayette.edu/people/maria-hernandez/" }
+  status: active
+  summary: >
+    This independent study in the French program is a major part of my thesis. It lays the groundwork by applying
+    typical linguistic tools to process how idiomatic language functions in French. A major goal of the project is
+    to produce something to the effect of a mathematical grammar which categorizes between idiomatic and non-idiomatic
+    structures.
+  tags: [ linguistics, idioms, French ]
+  links:
+    - { label: "Proposal", url: "/uploads/files/grammar-fr-idioms-proposal.pdf" }

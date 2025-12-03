@@ -50,7 +50,7 @@ In my instruction, I value the following:
 
   <article class="philosophy-card">
     <h3>Casual depth</h3>
-    <p>Come as you are—anyone can engage deeply. A relaxed tone lowers the barrier; depth comes from good questions.</p>
+    <p>Come as you are—anyone can engage deeply. A relaxed tone lowers the barrier, and depth comes from good questions.</p>
   </article>
 
   <article class="philosophy-card">
