@@ -91,7 +91,7 @@ related:
           {% if talk %}
             <article class="mini-card talk-card">
               <span class="mini-title">{{ talk.title }}</span>
-              <span class="mini-meta">{{ talk.date | date: "%b %Y" }}</span>
+              <span class="mini-meta">{{ talk.kind | capitalize }} &bull; {{ talk.date | date: "%b %Y" }} &bull; {{ talk.city }}</span>
             </article>
           {% endif %}
         {% endfor %}

@@ -45,7 +45,7 @@ related:
 {% for t in talks %}
   <article class="talk-card">
     <div class="talk-meta">
-      {{ t.kind | capitalize }} · {{ t.date | date: "%b %Y" }} · {{ t.city }}
+      {{ t.kind | capitalize }} · {{ t.date | date: "%b %Y" }} {% if t.upcoming %} <i>(upcoming)</i> {% endif %} · {{ t.city }}
     </div>
     <h3 class="talk-title">{{ t.title }}</h3>
     <div class="talk-venue"><em>{{ t.venue }}</em></div>

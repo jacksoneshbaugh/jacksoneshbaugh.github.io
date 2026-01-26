@@ -28,3 +28,12 @@
   publication: S1
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-12-01-2025.pdf" }
+- id: T4
+  kind: talk         # poster | talk | invited
+  upcoming: true
+  date: 2026-03-13
+  city: "Atlanta, GA"
+  venue: "Georgia State University"
+  title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
+  authors: [ "Silveyra, J. and Eshbaugh, J." ]
+  publication: S1

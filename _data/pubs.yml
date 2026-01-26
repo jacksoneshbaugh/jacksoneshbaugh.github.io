@@ -1,8 +1,9 @@
-- id: P1
-  type: preprint        # preprint | submitted | journal | conference | thesis
-  year: 2025
+- id: S2
+  type: submitted        # preprint | submitted | journal | conference | thesis
+  year: 2026
   title: "Fidelity Isn’t Accuracy: When Linearly Decodable Functions Fail to Match the Ground Truth"
   authors: [ "Eshbaugh, J." ]
+  venue_note: "Submitted to the Workshop on Scientific Methods for Understanding Deep Learning at ICLR."
   doi: "https://doi.org/10.48550/arXiv.2506.12176"
   arxiv: "arXiv:2506.12176"
   links:
@@ -11,10 +12,10 @@
 
 - id: S1
   type: submitted
-  year: 2025
+  year: 2026
   title: "A Modular and Multimodal Generative AI Framework for Urban Building Energy Data: Generating Synthetic Homes"
   authors: [ "Eshbaugh, J.", "Tiwari, C.", "Silveyra, J." ]
-  venue_note: "Submitted to Energy & Buildings"
+  venue_note: "Submitted to Energy & Buildings."
   doi: "https://doi.org/10.48550/arXiv.2509.09794"
   arxiv: "arXiv:2509.09794"
   links:

@@ -178,7 +178,7 @@ related:
       <li class="talk-item">
         <span class="talk-title">“{{ t.title }}.”</span>
         {{ t.kind | capitalize }}, <em>{{ t.venue }}</em>, {{ t.city }}.
-        {% if t.date %} {{ t.date | date: "%b %Y" }}.{% endif %}
+        {% if t.date %} {{ t.date | date: "%b %Y" }}{% if t.upcoming %} <i>(upcoming)</i>{% endif %}.{% endif %}
         {% if t.publication %}
           {% assign pub = site.data.pubs | where: "id", t.publication | first %}
           {% if pub %}
