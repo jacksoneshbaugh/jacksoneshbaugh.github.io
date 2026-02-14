@@ -29,6 +29,14 @@
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-12-01-2025.pdf" }
 - id: T4
+  kind: poster
+  date: 2026-02-07
+  city: "Easton, PA"
+  venue: "RAISE Up STEM Retreat"
+  title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
+  authors: [ "Eshbaugh, J." ]
+  publication: S1
+- id: T5
   kind: talk         # poster | talk | invited
   upcoming: true
   date: 2026-03-13
