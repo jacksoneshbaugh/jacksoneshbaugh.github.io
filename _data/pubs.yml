@@ -1,9 +1,9 @@
-- id: S2
-  type: submitted        # preprint | submitted | journal | conference | thesis
+- id: W1
+  type: workshop        # preprint | submitted | journal | conference | thesis | workshop
   year: 2026
   title: "\"Faithful to What?\" On the Limits of Fidelity-Based Explanations"
   authors: [ "Eshbaugh, J." ]
-  venue_note: "Submitted to the Workshop on Scientific Methods for Understanding Deep Learning at ICLR."
+  venue_note: "Workshop on Scientific Methods for Understanding Deep Learning at ICLR."
   doi: "https://doi.org/10.48550/arXiv.2506.12176"
   arxiv: "arXiv:2506.12176"
   links:
@@ -15,7 +15,7 @@
   year: 2026
   title: "Synthetic Homes: An Accessible Multimodal Pipeline for Producing Residential Building Data with Generative AI"
   authors: [ "Eshbaugh, J.", "Tiwari, C.", "Silveyra, J." ]
-  venue_note: "Submitted to the <i>Journal of Building Engineering</i>."
+  venue_note: "Submitted to Building Simulation."
   doi: "https://doi.org/10.48550/arXiv.2509.09794"
   arxiv: "arXiv:2509.09794"
   links:

@@ -53,6 +53,21 @@ related:
 <section id="positions" class="cv-sec">
   <h2>Research Positions</h2>
 
+<div class="cv-row">
+    <div class="cv-left">
+      <strong>Independent Study — Linguistics of Idioms</strong><br>
+      <span class="cv-meta">Lafayette College — Jan 2026–May 2026</span>
+    </div>
+    <div class="cv-right">
+      <ul class="cv-bullets">
+        <li>Study foundational linguistic theory, including de Saussure, to understand how idiomatic language functions within formal linguistic frameworks.</li>
+        <li>Examine implications for how idioms are theorized and processed.</li>
+        <li>Craft a journal article in French sharing findings and implications.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cv-spacer"></div>
+
   <div class="cv-row">
     <div class="cv-left">
       <strong>Independent Research — Neural Network Interpretability</strong><br>
@@ -77,7 +92,7 @@ related:
       <ul class="cv-bullets">
         <li>Develop neural-network approaches to recommend energy-efficiency retrofits at neighborhood scale.</li>
         <li>Use EnergyPlus simulations and generative AI for urban building energy modeling.</li>
-        <li>Co-author on the “Synthetic Homes” manuscript and related poster presentations.</li>
+        <li>First author on the "Synthetic Homes" manuscript and related poster presentations.</li>
       </ul>
     </div>
   </div>
@@ -194,7 +209,7 @@ related:
   <h2>Honors & Awards</h2>
   <ul class="cv-list">
     <li>Marquis Scholarship, Lafayette College (2023).</li>
-    <li>Dean’s List — F23, S24, F24, S25.</li>
+    <li>Dean’s List — F23, S24, F24, S25, F25.</li>
   </ul>
 </section>
 

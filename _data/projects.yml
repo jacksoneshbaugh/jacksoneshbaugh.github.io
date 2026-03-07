@@ -23,7 +23,8 @@
   tags: [ interpretability, theory, regression ]
   links:
     - { label: "Code", url: "https://github.com/jacksoneshbaugh/lambda-linearity-score" }
-  related_pub_ids: [ S2 ]
+  related_pub_ids: [ W1 ]
+  related_talk_ids: [ T6 ]
 
 - id: fr-idioms
   title: "Thesis: Detecting French Idioms"
