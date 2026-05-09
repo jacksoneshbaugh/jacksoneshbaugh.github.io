@@ -164,3 +164,126 @@
   font-weight: 600;
   margin-bottom: 4px;
 }
+
+.scholar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.scholar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  border: 1px solid transparent;
+}
+
+.scholar-btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.scholar-google {
+  background: #f3f6ff;
+  border-color: #d7e3ff;
+  color: #2457c5;
+}
+
+.scholar-orcid {
+  background: #eef9ef;
+  border-color: #cdeccc;
+  color: #2a7a2a;
+}
+
+.scholar-arxiv {
+  background: #fff3f0;
+  border-color: #ffd7cf;
+  color: #b54832;
+}
+
+.scholar-github {
+  background: #f4f4f5;
+  border-color: #d9d9dc;
+  color: #24292f;
+}
+
+.current-work {
+  margin: 3.5rem auto 2.5rem;
+}
+
+.current-work-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+
+.current-work h2 {
+  margin-bottom: 1rem;
+  font-size: 1.45rem;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.work-card {
+  padding: 0.9rem 0.9rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(3px);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.work-card p {
+  margin: 0;
+  line-height: 1.55;
+  font-size: 0.96rem;
+}
+
+.work-tag {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  padding: 0.22rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: #f3f4f6;
+  color: #374151;
+}
+
+@media (max-width: 900px) {
+  .work-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .scholar-links {
+    gap: 0.5rem;
+  }
+
+  .scholar-btn {
+    font-size: 0.82rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+}

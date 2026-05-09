@@ -12,9 +12,81 @@ page_id: teaching
     <span class="cite">(Proverbs 4:7, NIV)</span>
   </blockquote>
   <p class="blurb">
-    I’ve served as a Teaching Assistant and MSG leader, focusing on clarity, confidence, and curiosity in computer science. My role as a TA involves my assistance in class, and my role as an MSG Leader involves holding two two-hour sessions where students can attend and work on lab assignments or homework for the class, with my assistance. 
+    I've served as a Teaching Assistant and Mentored Study Group (MSG) leader, focusing on clarity, confidence, and curiosity in computer science education. As a TA, I support students during class through debugging assistance, conceptual guidance, and discussion. As an MSG leader, I facilitate collaborative review sessions where students work through labs, assignments, and course concepts in an approachable and supportive environment. 
   </p>
 </div>
+
+---
+
+## Teaching Philosophy
+
+<p class="teaching-philosophy-intro">
+Much of my teaching philosophy centers on what I think of as <em>casual depth</em>: the belief that profound learning does not require rigidity, performance, or intimidation. Some of the most formative intellectual experiences emerge through relaxed conversation, curiosity, and the freedom to explore ideas openly.
+</p>
+
+<div class="orbit-wrap" role="img" aria-label="Teaching philosophy diagram: casual depth at center, surrounded by six principles — clarity first, curiosity-driven, personalized, active classroom, confidence building, inclusive and accessible">
+
+  <div class="orbit-ring"></div>
+  <div class="orbit-ring-inner"></div>
+
+  <div class="orbit-center">
+    <span class="label">Casual depth</span>
+    <span class="sub">Come as you are. Profound learning emerges through relaxed curiosity.</span>
+  </div>
+
+  <!-- 12 o'clock -->
+  <div class="orbit-node" style="top:3%;left:50%;transform:translateX(-50%)">
+    <p class="n-title">Clarity first</p>
+    <p class="n-body">Intuition and examples before abstraction. Concepts stick when grounded.</p>
+  </div>
+
+  <!-- 2 o'clock -->
+  <div class="orbit-node" style="top:14%;right:4%">
+    <p class="n-title">Curiosity-driven</p>
+    <p class="n-body">Questions fuel learning. I reward exploration and model wonder.</p>
+  </div>
+
+  <!-- 4 o'clock -->
+  <div class="orbit-node" style="bottom:14%;right:4%">
+    <p class="n-title">Personalized</p>
+    <p class="n-body">Meet learners where they are. When curiosity reaches the syllabus edge, offer intuition and next steps.</p>
+  </div>
+
+  <!-- 6 o'clock -->
+  <div class="orbit-node" style="bottom:3%;left:50%;transform:translateX(-50%)">
+    <p class="n-title">Active classroom</p>
+    <p class="n-body">Learning is social. Sessions prompt discussion, collaboration, and hands-on practice.</p>
+  </div>
+
+  <!-- 8 o'clock -->
+  <div class="orbit-node" style="bottom:14%;left:4%">
+    <p class="n-title">Confidence building</p>
+    <p class="n-body">Low-stakes checks and visible progress help students trust themselves.</p>
+  </div>
+
+  <!-- 10 o'clock -->
+  <div class="orbit-node" style="top:14%;left:4%">
+    <p class="n-title">Inclusive &amp; accessible</p>
+    <p class="n-body">Questions are welcomed, support is accessible, curiosity grows without fear.</p>
+  </div>
+
+</div>
+
+<!-- Mobile fallback -->
+<div class="orbit-stack">
+  <div class="stack-center">
+    <h3>Casual depth</h3>
+    <p>Come as you are. Profound learning does not require rigidity or performance — it emerges through relaxed conversation, curiosity, and the freedom to explore ideas openly.</p>
+  </div>
+  <div class="stack-node"><h3>Clarity first</h3><p>Intuition and examples before abstraction. Concepts stick when grounded.</p></div>
+  <div class="stack-node"><h3>Curiosity-driven</h3><p>Questions fuel learning. I reward exploration and model wonder.</p></div>
+  <div class="stack-node"><h3>Personalized</h3><p>Meet learners where they are. When curiosity reaches the syllabus edge, offer intuition and next steps.</p></div>
+  <div class="stack-node"><h3>Active classroom</h3><p>Learning is social. Sessions prompt discussion, collaboration, and hands-on practice.</p></div>
+  <div class="stack-node"><h3>Confidence building</h3><p>Low-stakes checks and visible progress help students trust themselves.</p></div>
+  <div class="stack-node"><h3>Inclusive &amp; accessible</h3><p>Questions are welcomed, support is accessible, curiosity grows without fear.</p></div>
+</div>
+
+---
 
 ## Courses & Materials
 
@@ -38,49 +110,4 @@ page_id: teaching
     {% endif %}
   </article>
 {% endfor %}
-</div>
-
----
-
-## Teaching Philosophy
-
-In my instruction, I value the following:
-
-<div class="philosophy-grid">
-
-  <article class="philosophy-card">
-    <h3>Casual depth</h3>
-    <p>Come as you are—anyone can engage deeply. A relaxed tone lowers the barrier, and depth comes from good questions.</p>
-  </article>
-
-  <article class="philosophy-card">
-    <h3>Personalized learning</h3>
-    <p>Meet learners where they are. When curiosity reaches beyond the syllabus, offer intuition and next steps.</p>
-  </article>
-
-  <article class="philosophy-card">
-    <h3>Active classroom</h3>
-    <p>Learning is social. I design sessions that prompt discussion, collaboration, and hands-on practice.</p>
-  </article>
-
-  <article class="philosophy-card">
-    <h3>Clarity first</h3>
-    <p>Start with intuition and examples, then layer abstraction. Concepts stick when they’re grounded.</p>
-  </article>
-
-  <article class="philosophy-card">
-    <h3>Confidence building</h3>
-    <p>Frequent low-stakes checks and visible progress help students trust themselves and keep momentum.</p>
-  </article>
-
-  <article class="philosophy-card">
-    <h3>Curiosity-driven</h3>
-    <p>Questions fuel learning. I model wonder, reward exploration, and encourage “why?” as much as “how?”.</p>
-  </article>
-
-  <article class="philosophy-card">
-    <h3>Inclusive & accessible</h3>
-    <p>All backgrounds and learning styles are welcome. Materials and pacing are designed to include everyone.</p>
-  </article>
-
 </div>

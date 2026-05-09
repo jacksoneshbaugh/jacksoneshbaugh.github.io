@@ -37,20 +37,22 @@
   authors: [ "Eshbaugh, J." ]
   publication: S1
 - id: T5
-  kind: talk         # poster | talk | invited
-  upcoming: true
+  kind: invited         # poster | talk | invited
   date: 2026-03-13
   city: "Atlanta, GA"
   venue: "Georgia State University"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Silveyra, J. and Eshbaugh, J." ]
   publication: S1
+  links:
+    - { label: "Slides", url: "/uploads/talks/synthetic-homes-03-13-2026.pdf" }
 - id: T6
   kind: poster
-  upcoming: true
   date: 2026-04-26
   city: "Rio de Janeiro, Brazil"
   venue: "Workshop on Scientific Methods for Understanding Deep Learning at ICLR"
   title: "\"Faithful to What?\" On the Limits of Fidelity-Based Explanations"
   authors: [ "Eshbaugh, J." ]
   publication: W1
+  links:
+    - { label: "Poster", url: "/uploads/posters/iclr-2026.pdf" }
