@@ -2,57 +2,75 @@
   kind: poster         # poster | talk | invited
   date: 2025-09-28
   city: "Easton, PA"
+  lat: 40.6916
+  long: -75.2099
   venue: "Lafayette College Bicentennial Weekend Poster Session"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
   publication: S1
+  map_label: "Poster · Lafayette Bicentennial Weekend"
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-09-27-2025.pdf" }
 - id: T2
   kind: poster         # poster | talk | invited
   date: 2025-10-16
   city: "Lancaster, PA"
+  lat: 40.0379
+  long: -76.3055
   venue: "CyberAccelerate Poster Session at KINBERCON 2025"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
   publication: S1
+  map_label: "Poster · KINBERCON 2025"
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-10-16-2025.pdf" }
 - id: T3
   kind: poster         # poster | talk | invited
   date: 2025-12-01
   city: "Easton, PA"
+  lat: 40.6916
+  long: -75.2099
   venue: "Lafayette College Excel Scholars Poster Session"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
   publication: S1
+  map_label: "Poster · EXCEL Scholars"
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-12-01-2025.pdf" }
 - id: T4
   kind: poster
   date: 2026-02-07
   city: "Easton, PA"
+  lat: 40.6916
+  long: -75.2099
   venue: "RAISE Up STEM Retreat"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
   publication: S1
+  map_label: "Poster · RAISE Up STEM Retreat"
 - id: T5
   kind: invited         # poster | talk | invited
   date: 2026-03-13
   city: "Atlanta, GA"
+  lat: 33.7490
+  long: -84.3880
   venue: "Georgia State University"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Silveyra, J. and Eshbaugh, J." ]
   publication: S1
+  map_label: "Invited Talk · Georgia State University"
   links:
     - { label: "Slides", url: "/uploads/talks/synthetic-homes-03-13-2026.pdf" }
 - id: T6
   kind: poster
   date: 2026-04-26
   city: "Rio de Janeiro, Brazil"
+  lat: -22.9068
+  long: -43.1729
   venue: "Workshop on Scientific Methods for Understanding Deep Learning at ICLR"
   title: "\"Faithful to What?\" On the Limits of Fidelity-Based Explanations"
   authors: [ "Eshbaugh, J." ]
   publication: W1
+  map_label: "Poster · ICLR 2026 Sci4DL Workshop"
   links:
     - { label: "Poster", url: "/uploads/posters/iclr-2026.pdf" }
