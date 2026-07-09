@@ -31,25 +31,21 @@
   dates: "Feb 2025 – present"
   advisors:
     - { name: "Sofia Serrano", url: "https://sites.lafayette.edu/serranos/" }
-    - { name: "Maria Hernandez", url: "https://lls.lafayette.edu/people/maria-hernandez/" }
   status: active
   summary: >
-    Alongside traditional linguistics, I apply back-translation and neural methods to a new French idiom corpus to improve
-    our understanding of how computers and humans process idiomatic language.
+    My honors thesis will investigate how theoretical accounts of idiomatic language can be translated into computational models. Using a new French idiom corpus, I will explore how linguistic dimensions of idiomaticity—such as semantic opacity, syntactic flexibility, and conventionality—can be operationalized for natural language processing.
   tags: [ computational, linguistics, nlp, multilingual, idioms ]
   links: [ ]
 
-- id: grammar-fr-idioms
-  title: "Toward a Grammar for French Idioms"
-  dates: "Jan. 2025 – present"
+- id: fr-idioms-saussure
+  title: "Aller de soi : les idioms face au modèle saussurien [Taking it for Granted: Idioms verses the Saussureian Model]"
+  dates: "Jan. 2026 – May 2026"
   advisors:
     - { name: "Maria Hernandez", url: "https://lls.lafayette.edu/people/maria-hernandez/" }
-  status: active
+  status: inactive
   summary: >
-    This independent study in the French program is a major part of my thesis. It lays the groundwork by applying
-    typical linguistic tools to process how idiomatic language functions in French. A major goal of the project is
-    to produce something to the effect of a mathematical grammar which categorizes between idiomatic and non-idiomatic
-    structures.
+    This independent study in the French program examines idiomatic language through the lens of modern linguistic theory. Focusing on French idioms, I analyze the limitations of Saussure's structural model in explaining idiomatic meaning and explore how more recent linguistic frameworks provide a foundation for future computational models of idiomaticity.
   tags: [ linguistics, idioms, French ]
   links:
-    - { label: "Proposal", url: "/uploads/files/grammar-fr-idioms-proposal.pdf" }
+    - { label: "Final Product (in French)", url: "/uploads/files/aller-de-soi.pdf" }
+    - { label: "Final Product (Machine Translated)", url: "/uploads/files/taking-it-for-granted.pdf" }

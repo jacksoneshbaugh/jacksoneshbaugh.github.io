@@ -21,10 +21,6 @@ related:
     My curriculum vitae contains a complete record of my academic work, including research positions, publications, teaching, presentations, service, and awards.
   </p>
 
-  <p class="cv-intro">
-    My current research interests include computational linguistics, multilingual natural language processing, and machine learning interpretability.
-  </p>
-
   <div class="cv-download">
     <a class="cv-button" href="/uploads/Jackson%20Eshbaugh%20CV.pdf">
       Download CV (PDF)

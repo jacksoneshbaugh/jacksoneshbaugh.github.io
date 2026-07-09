@@ -151,11 +151,13 @@ related:
       }).join("");
 
       return `
-        <div class="presentation-map-popup">
-          <h4>${escapeHtml(location.city)}</h4>
-          ${talkItems}
-        </div>
-      `;
+  <div class="presentation-map-popup">
+    <h4>${escapeHtml(location.city)}</h4>
+    <div class="presentation-map-popup-items">
+      ${talkItems}
+    </div>
+  </div>
+`;
     }
 
     const markers = presentationLocations.map(function (location) {
@@ -277,16 +279,33 @@ related:
     max-height: none !important;
   }
 
+  .presentation-map-popup {
+    max-width: 300px;
+  }
+
   .presentation-map-popup h4 {
     margin: 0 0 0.5rem;
   }
 
+  .presentation-map-popup-items {
+    max-height: 150px;
+    overflow-y: auto;
+    padding-right: 0.35rem;
+  }
+
   .presentation-map-popup-item {
     margin-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border-color, #ddd);
   }
 
   .presentation-map-popup-item:first-of-type {
     margin-top: 0;
+  }
+
+  .presentation-map-popup-item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
   }
 
   .presentation-map-popup-links {
