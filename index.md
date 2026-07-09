@@ -4,7 +4,7 @@ lang: en
 page_id: home
 permalink: /
 title: "Computer Science and French Student"
-description: "Jackson Eshbaugh — undergraduate researcher in ML interpretability and multilingual NLP at Lafayette College."
+description: "Jackson Eshbaugh — undergraduate researcher studying meaning, representation, and machine learning at Lafayette College."
 ---
 
 <header class="hero">
@@ -14,7 +14,7 @@ description: "Jackson Eshbaugh — undergraduate researcher in ML interpretabili
     </picture>
     <div class="hero-text">
       <h1 class="hero-title">Jackson Eshbaugh</h1>
-      <p class="hero-sub">Computational Linguistics &bull; ML Interpretability &bull; Multilingual NLP </p>
+      <p class="hero-sub">Computational Semantics &bull; ML Interpretability &bull; Computational Linguistics</p>
       <p class="hero-body">
         I study computer science and French at Lafayette College, focusing on how
         artificial systems understand language—and how we can make those systems more
