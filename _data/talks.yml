@@ -7,7 +7,7 @@
   venue: "Lafayette College Bicentennial Weekend Poster Session"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
-  publication: S1
+  publication: synth_homes
   map_label: "Poster · Lafayette Bicentennial Weekend"
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-09-27-2025.pdf" }
@@ -20,7 +20,7 @@
   venue: "CyberAccelerate Poster Session at KINBERCON 2025"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
-  publication: S1
+  publication: synth_homes
   map_label: "Poster · KINBERCON 2025"
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-10-16-2025.pdf" }
@@ -33,7 +33,7 @@
   venue: "Lafayette College Excel Scholars Poster Session"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
-  publication: S1
+  publication: synth_homes
   map_label: "Poster · EXCEL Scholars"
   links:
     - { label: "Poster", url: "/uploads/posters/synthetic-homes-12-01-2025.pdf" }
@@ -46,7 +46,7 @@
   venue: "RAISE Up STEM Retreat"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Eshbaugh, J." ]
-  publication: S1
+  publication: synth_homes
   map_label: "Poster · RAISE Up STEM Retreat"
 - id: T5
   kind: invited         # poster | talk | invited
@@ -57,7 +57,7 @@
   venue: "Georgia State University"
   title: "Generating Synthetic Homes: A Modular and Multimodal Generative AI Framework for Urban Building Energy Data"
   authors: [ "Silveyra, J. and Eshbaugh, J." ]
-  publication: S1
+  publication: synth_homes
   map_label: "Invited Talk · Georgia State University"
   links:
     - { label: "Slides", url: "/uploads/talks/synthetic-homes-03-13-2026.pdf" }
@@ -70,7 +70,7 @@
   venue: "Workshop on Scientific Methods for Understanding Deep Learning at ICLR"
   title: "\"Faithful to What?\" On the Limits of Fidelity-Based Explanations"
   authors: [ "Eshbaugh, J." ]
-  publication: W1
+  publication: faithful_to_what
   map_label: "Poster · ICLR 2026 Sci4DL Workshop"
   links:
     - { label: "Poster", url: "/uploads/posters/iclr-2026.pdf" }

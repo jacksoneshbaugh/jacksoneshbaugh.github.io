@@ -1,4 +1,4 @@
-- id: W1
+- id: faithful_to_what
   type: workshop        # preprint | submitted | journal | conference | thesis | workshop
   year: 2026
   title: "\"Faithful to What?\" On the Limits of Fidelity-Based Explanations"
@@ -10,15 +10,13 @@
     - { label: "DOI", url: "https://doi.org/10.48550/arXiv.2506.12176" }
     - { label: "PDF", url: "https://arxiv.org/pdf/2506.12176" }
 
-- id: S1
-  type: submitted
+- id: synth_homes
+  type: journal
   year: 2026
   title: "Synthetic Homes: An Accessible Multimodal Pipeline for Producing Residential Building Data with Generative AI"
   authors: [ "Eshbaugh, J.", "Tiwari, C.", "Silveyra, J." ]
-  venue_note: "Under review at Machine Learning with Applications."
-  doi: "https://doi.org/10.48550/arXiv.2509.09794"
+  venue_note: "Machine Learning with Applications. Volume 25 (September)."
+  doi: "https://doi.org/10.1016/j.mlwa.2026.100959"
   arxiv: "arXiv:2509.09794"
   links:
-    - { label: "DOI", url: "https://doi.org/10.48550/arXiv.2509.09794" }
-    - { label: "PDF", url: "https://arxiv.org/pdf/2509.09794" }
-    - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5518000" }
+    - { label: "DOI (Open Access)", url: "https://doi.org/10.1016/j.mlwa.2026.100959" }
